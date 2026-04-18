@@ -17,20 +17,3 @@ consumes: {
   power: 0.0833333333333333333333333333333333333333333333333
 }
 
-
-
-research: {
-  parent: nest
-  objectives: [  
-    scrap-wall
-  ]
-}
-researchCost: [
-  efscrap/120
-  efcopper/80
-]
-
-
-
-
-

@@ -16,10 +16,3 @@ requirements: [
 liquidPadding: 1.8
 
 
-
-research: liquid-router
-researchCost: [
-  efscrap/300
-  efalluminum/200
-]
-
