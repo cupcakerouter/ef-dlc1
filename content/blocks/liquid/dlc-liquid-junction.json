@@ -9,12 +9,4 @@ squareSprite: true
 
 requirements: [
   efdlc-scrap/5
-]
-
-
-
-research: liquid-pipeline
-researchCost: [
-  efscrap/50
-]
-
+] 
