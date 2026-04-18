@@ -11,7 +11,13 @@ temperature: 0.4
 blockReactive: false
 
 
-research: efdlc-scrap
+research: {
+  parent: efdlc-scrap
+  objectives: [
+    efdlc-dirty-water
+  ] 
+} 
+
 hiddenOnPlanets: [serpulo, erekir]
 
 
