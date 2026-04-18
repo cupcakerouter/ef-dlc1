@@ -16,12 +16,3 @@ underBullets: true
 
 junctionReplacement: dlc-liquid-junction
 rotBridgeReplacement: dlc-liquid-bridge
-
-
-
-research: nest
-researchCost: [
-  efscrap/20
-]
-
-
