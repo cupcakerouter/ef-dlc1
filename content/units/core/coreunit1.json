@@ -1,11 +1,12 @@
 type: flying
 flying: true
 canDrown: false 
-name: Thrive
+name: WIP
 description: Tiny core unit. Capable of building structures and mining ores at a slow rate. Does not posess any offensive capabilities.
 
 hittable: false
 killable: false
+targetable: false
 
 engineSize: 0
 faceTarget: true
