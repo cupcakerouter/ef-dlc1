@@ -14,13 +14,3 @@ requirements: [
 
 category: liquid
 squareSprite: true
-
-
-
-research: liquid-pipeline
-researchCost: [
-  efscrap/100
-] 
-
-
-
