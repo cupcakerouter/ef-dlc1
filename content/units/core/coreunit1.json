@@ -4,6 +4,9 @@ canDrown: false
 name: Thrive
 description: Tiny core unit. Capable of building structures and mining ores at a slow rate. Does not posess any offensive capabilities.
 
+hittable: false
+killable: false
+
 engineSize: 0
 faceTarget: true
 loopSoundVolume: 0.5
@@ -14,18 +17,18 @@ speed: 3
 rotateSpeed: 6
 accel: 0.1
 lowAltitude: false
-health: 640
+health: 400
 armor: 3
 hitSize: 10
 itemCapacity: 50
 fogRadius: 0
-range: 1
+range: 0
 
 buildSpeed: 0.75
 buildBeamOffset: 5
 
 mineTier: 2
-mineSpeed: 1.5
+mineSpeed: 5
 mineRange: 60
 
 mineItems: [
