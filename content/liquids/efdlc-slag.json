@@ -11,8 +11,12 @@ temperature: 1
 blockReactive: false
 
 
-research: efdlc-dirty-water
-
+research: {
+  parent: efdlc-dirty-water
+  objectives: [
+    efdlc-slag
+  ] 
+} 
 hiddenOnPlanets: [serpulo, erekir]
 
 
