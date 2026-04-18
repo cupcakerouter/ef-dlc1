@@ -1,0 +1,17 @@
+type: DirectionLiquidBridge
+name: Liquid Bridge
+description: Allows for crossing of terrain or several blocks. 
+size: 1
+health: 80
+range: 4
+solid: false
+
+
+requirements: [
+  efdlc-scrap/10
+]
+
+
+category: liquid
+squareSprite: true
+
