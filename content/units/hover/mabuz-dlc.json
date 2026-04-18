@@ -69,7 +69,7 @@ weapons: [
     mirror: true
     alternate: true
     top: false
-    reload: 20
+    reload: 120
     rotate: false
     shootSound: shootElude
     recoil: 0.5
