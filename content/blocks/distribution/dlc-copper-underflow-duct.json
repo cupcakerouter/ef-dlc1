@@ -1,0 +1,27 @@
+type: OverflowDuct
+name: Underflow Duct
+description: Prioritizes outputting items to the sides. 
+category: distribution
+health: 80
+invert: true
+requirements: [
+	efdlc-scrap/5 
+	efdlc-copper/5
+]
+
+
+
+research: {
+  parent: copper-duct-router
+  objectives: [  
+      {
+      type: SectorComplete
+      preset: un
+      }
+  ]
+}
+researchCost: [
+  efscrap/50
+  efcopper/50
+]
+
