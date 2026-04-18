@@ -1,0 +1,25 @@
+type: CoreBlock
+name: Core: WIP
+description: Core.
+
+
+requirements: [
+  efdlc-scrap/1200
+  efdlc-copper/800
+]
+
+
+isFirstTier: true
+size: 3
+squareSprite: false
+alwaysUnlocked: true
+unitType: coreunit1
+health: 3500
+armor: 5
+itemCapacity: 3000
+unitCapModifier: 10
+solid: true
+category: effect
+
+
+

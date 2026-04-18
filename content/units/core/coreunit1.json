@@ -1,0 +1,79 @@
+type: flying
+flying: true
+canDrown: false 
+name: Thrive
+description: Tiny core unit. Capable of building structures and mining ores at a slow rate. Does not posess any offensive capabilities.
+
+engineSize: 0
+faceTarget: true
+loopSoundVolume: 0.5
+loopSound: loopHover
+drag: 0.05
+outlineColor: 13151AFF
+speed: 3
+rotateSpeed: 6
+accel: 0.1
+lowAltitude: false
+health: 640
+armor: 3
+hitSize: 10
+itemCapacity: 40
+fogRadius: 12
+range: 75
+
+
+abilities: [
+  {
+    type: MoveEffectAbility
+    teamColor: true
+    effect: missileTrailShort
+    x: 5.25
+    y: -5.25
+size: 1
+    interval: 3.5
+    minVelocity: 0.4
+  }
+  {
+    type: MoveEffectAbility
+    teamColor: true
+    effect: missileTrailShort
+    x: -5.25
+    y: -5.25
+size: 1
+    interval: 3.5
+    minVelocity: 0.4
+  }
+]
+
+
+engines: [
+  {
+    x: 5.25
+    y: -5.25
+    radius: 1.7
+    rotation: 270
+  } 
+  {
+    x: -5.25
+    y: -5.25
+    radius: 1.7
+    rotation: 270
+  }
+
+  {
+    x: 5.25
+    y: 3.75
+    radius: 1.7
+    rotation: -90
+  }
+  {
+    x: -5.25
+    y: 3.75
+    radius: 1.7
+    rotation: -90
+  }
+] 
+
+
+weapons: [
+]

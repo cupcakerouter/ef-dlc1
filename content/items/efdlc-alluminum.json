@@ -8,12 +8,8 @@ charge: 0.4
 color: ADC6B8FF
 
 
-research: {
-  parent: efdlc-slag
-  objectives: [
-    efdlc-alluminum
-  ] 
-} 
+research: efdlc-slag
+
 hiddenOnPlanets: [serpulo, erekir]
 
 

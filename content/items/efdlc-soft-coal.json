@@ -8,12 +8,6 @@ charge: 0
 color: 72574DFF
 
 hiddenOnPlanets: [serpulo, erekir]
-research: {
-  parent: efdlc-scrap
-  objectives: [
-    efdlc-soft-coal
-  ] 
-} 
 
 
 

@@ -1,6 +1,6 @@
 type: Liquid
 name: Contaminated Water
-description: Seriously contaminated water. Barely does it's job as a coolant. Purification is basicaly mandatory. 
+description: Highly contaminated water. Barely does its job as a coolant. 
 color: 1B5059FF
 
 explosiveness: 0
@@ -11,13 +11,7 @@ temperature: 0.4
 blockReactive: false
 
 
-research: {
-  parent: efdlc-scrap
-  objectives: [
-    efdlc-dirty-water
-  ] 
-} 
-
+research: efdlc-scrap
 hiddenOnPlanets: [serpulo, erekir]
 
 
