@@ -2,7 +2,7 @@ name: "ef-dlc"
 displayName: "Echo Fleet DLC"
 author: "Cupcake"
 description: "Yes "
-version: "gug build (0)"
+version: "0"
 minGameVersion: "150"
 hidden: false
 subtitle: "Yes"
