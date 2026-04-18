@@ -1,0 +1,13 @@
+type: OverflowDuct
+name: Overflow Duct
+description: Prioritizes outputting items to the front. 
+category: distribution
+health: 80
+requirements: [
+	efdlc-scrap/5
+	efdlc-copper/5
+]
+
+
+
+
