@@ -78,7 +78,7 @@ weapons: [
     rotationLimit: 15
     x: 3.75
     y: 0.25
-    name: keres-weapon
+    name: keres-dlc-weapon
     mirror: true
     alternate: true
     top: true
