@@ -13,11 +13,3 @@ squareSprite: true
 requirements: [
   efdlc-scrap/10
 ]
-
-
-
-research: liquid-junction
-researchCost: [
-  efscrap/100
-]
-
