@@ -14,5 +14,10 @@ gas: true
 blockReactive: false
 
 
-research: efdlc-alluminum
+research: {
+  parent: efdlc-alluminum
+  objectives: [
+    efdlc-ozone
+  ] 
+} 
 hiddenOnPlanets: [serpulo, erekir]
