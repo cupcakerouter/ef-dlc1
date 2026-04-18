@@ -9,6 +9,12 @@ hardness: 2
 color: D5AE8CFF
 
 hiddenOnPlanets: [serpulo, erekir]
+research: {
+  parent: efdlc-scrap
+  objectives: [
+    efdlc-copper
+  ] 
+} 
 
 
 
