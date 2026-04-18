@@ -8,13 +8,6 @@ charge: 0.3
 hardness: 2
 color: D5AE8CFF
 
-
-research: {
-  parent: efscrap
-  objectives: [  
-    efcopper
-  ]
-}
 hiddenOnPlanets: [serpulo, erekir]
 
 

@@ -7,13 +7,6 @@ radioactivity: 0
 charge: 0
 color: 72574DFF
 
-
-research: {
-  parent: efscrap
-  objectives: [  
-    efsoft-coal
-  ]
-}
 hiddenOnPlanets: [serpulo, erekir]
 
 
