@@ -12,15 +12,4 @@ junctionReplacement: dlc-copper-junction
 
 
 
-research: {
-  parent: nest
-  objectives: [  
-     pulse-drill
-  ]
-}
-researchCost: [
-  efcopper/10
-] 
-
-
 

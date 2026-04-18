@@ -17,12 +17,3 @@ squareSprite: true
 range: 3
 speed: 3
 
-
-
-research: copper-duct
-researchCost: [
-  efscrap/30
-  efcopper/20
-]
-
-

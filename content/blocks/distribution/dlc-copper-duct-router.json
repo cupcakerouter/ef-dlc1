@@ -11,11 +11,3 @@ requirements: [
 category: distribution
 squareSprite: true
 
-
-
-research: copper-junction
-researchCost: [
-	efscrap/80
-    efcopper/80
-] 
-

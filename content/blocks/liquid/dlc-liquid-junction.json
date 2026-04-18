@@ -15,6 +15,6 @@ requirements: [
 
 research: liquid-pipeline
 researchCost: [
-  efdlc-scrap/50
+  efscrap/50
 ]
 

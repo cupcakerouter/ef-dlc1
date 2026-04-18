@@ -18,6 +18,6 @@ requirements: [
 
 research: liquid-junction
 researchCost: [
-  efdlc-scrap/100
+  efscrap/100
 ]
 

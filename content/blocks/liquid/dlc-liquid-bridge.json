@@ -19,7 +19,7 @@ squareSprite: true
 
 research: liquid-pipeline
 researchCost: [
-  efdlc-scrap/100
+  efscrap/100
 ] 
 
 

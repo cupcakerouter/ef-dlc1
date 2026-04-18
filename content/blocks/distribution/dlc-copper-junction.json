@@ -14,9 +14,3 @@ requirements: [
 squareSprite: true
 category: distribution
 
-
-
-research: copper-duct
-researchCost: [
-  efcopper/20
-]

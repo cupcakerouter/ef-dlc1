@@ -21,7 +21,7 @@ rotBridgeReplacement: dlc-liquid-bridge
 
 research: nest
 researchCost: [
-  efdlc-scrap/20
+  efscrap/20
 ]
 
 

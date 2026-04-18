@@ -11,7 +11,7 @@ temperature: 1
 blockReactive: false
 
 
-research: efdirty-water
+research: efdlc-dirty-water
 
 hiddenOnPlanets: [serpulo, erekir]
 

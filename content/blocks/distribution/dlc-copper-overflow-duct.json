@@ -9,18 +9,3 @@ requirements: [
 ]
 
 
-
-research: {
-  parent: copper-duct-router
-  objectives: [  
-      {
-      type: SectorComplete
-      preset: un
-      }
-  ]
-}
-researchCost: [
-  efscrap/50
-  efcopper/50
-]
-
