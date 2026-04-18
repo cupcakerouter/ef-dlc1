@@ -17,9 +17,21 @@ lowAltitude: false
 health: 640
 armor: 3
 hitSize: 10
-itemCapacity: 40
-fogRadius: 12
-range: 75
+itemCapacity: 50
+fogRadius: 0
+range: 1
+
+buildSpeed: 0.75
+buildBeamOffset: 5
+
+mineTier: 2
+mineSpeed: 1.5
+mineRange: 60
+
+mineItems: [
+efdlc-scrap
+efdlc-copper
+]
 
 
 abilities: [
