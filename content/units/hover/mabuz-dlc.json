@@ -1,6 +1,6 @@
 type: mech
 name: Mabuz
-description: Fires alternating clusters of bullets. Cannot cross terrain. Modified for something.
+description: Fires alternating clusters of bullets. Cannot cross terrain. Lightly modified for the conditions on PLANETNAME GOES HERE.
 research: hover-fabricator
 researchCost: [
   efscrap/80
@@ -19,7 +19,7 @@ mechSideSway: 0
 mechStride: 0
 drag: 0.1
 outlineColor: 13151AFF
-speed: 2.66666666666666666666666666666666666666666666
+speed: 2.25
 rotateSpeed: 5
 accel: 0.1
 groundLayer: 60
@@ -74,7 +74,7 @@ weapons: [
     shootSound: shootElude
     recoil: 0.5
     shoot: {
-      shots: 6
+      shots: 5
       shotDelay: 5
     }
     bullet: { 
