@@ -1,6 +1,6 @@
 type: mech
 name: Mabuz
-description: Fires alternating clusters of bullets. Cannot cross terrain.
+description: Fires alternating clusters of bullets. Cannot cross terrain. Test desc.
 research: 03j-03-hover-fabricator
 researchCost: [
   01a-01-item-scrap/80
@@ -69,7 +69,7 @@ weapons: [
     mirror: true
     alternate: true
     top: false
-    reload: 120
+    reload: 30
     rotate: false
     shootSound: shootElude
     recoil: 0.5
