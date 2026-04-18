@@ -81,7 +81,7 @@ weapons: [
     shootCone: 20
     x: -5.25
     y: 5.96875
-    name: ephai-weapon
+    name: ephai-dlc-weapon
     mirror: true
     alternate: true
     top: false
