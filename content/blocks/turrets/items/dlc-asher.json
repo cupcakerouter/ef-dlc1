@@ -247,7 +247,7 @@ ammoTypes: {
       }
   	]
   }
-  efalluminum: {
+  efdlc-alluminum: {
     type: BasicBulletType
     buildingDamageMultiplier: 0.25
     damage: 50
