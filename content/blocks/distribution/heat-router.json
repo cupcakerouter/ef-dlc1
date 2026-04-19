@@ -2,6 +2,8 @@ type: HeatConductor
 health: 100
 size: 1
 category: crafting
+name: Heat Router
+description: Splits heat into three directions. Heat that isnt used will be wasted.
 requirements: [
 efdlc-scrap/15
 efdlc-copper/15

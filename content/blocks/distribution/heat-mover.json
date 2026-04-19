@@ -2,6 +2,8 @@ type: HeatConductor
 health: 100
 size: 1
 category: crafting
+name: Heat Mover
+description: Transfers heat to the block infront of itself.
 requirements: [
 efdlc-scrap/15
 efdlc-copper/15
