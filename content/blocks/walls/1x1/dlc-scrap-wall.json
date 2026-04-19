@@ -9,16 +9,6 @@ category: defense
 
 
 requirements: [
-  01a-01-item-scrap/6
+  efdlc-scrap/6
 ]
 
-
-research: {
-  parent: 03h-01-core-nest 
-  objectives: [  
-    03b-03-production-pulse-drill
-  ]
-}
-researchCost: [
-  01a-01-item-scrap/60
-]

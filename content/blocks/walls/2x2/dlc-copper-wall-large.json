@@ -12,11 +12,7 @@ buildTime: 32
 
 
 requirements: [
-  01a-02-item-copper/24
+  efdlc-copper/24
 ]
 
 
-research: 03k-02-defense-copper-wall
-researchCost: [
-  01a-02-item-copper/240
-]

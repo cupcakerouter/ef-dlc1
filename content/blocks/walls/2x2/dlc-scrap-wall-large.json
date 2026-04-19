@@ -9,11 +9,7 @@ category: defense
 
 
 requirements: [
-  01a-01-item-scrap/24
+  efdlc-scrap/24
 ]
 
 
-research: 03k-01-defense-scrap-wall
-researchCost: [
-  01a-01-item-scrap/240
-] 
