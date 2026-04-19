@@ -1,0 +1,11 @@
+type: OverflowDuct
+name: Underflow Duct
+description: Prioritizes outputting items to the sides. 
+category: distribution
+health: 80
+invert: true
+requirements: [
+	efdlc-scrap/5 
+	efdlc-copper/5
+]
+

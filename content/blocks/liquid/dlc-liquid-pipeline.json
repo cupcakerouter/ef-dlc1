@@ -1,0 +1,20 @@
+type: Conduit
+name: Liquid Pipeline
+description: Transports liquids forward. 
+category: liquid
+
+
+requirements: [
+  efdlc-scrap/2
+]
+
+
+health: 60
+leaks: true
+underBullets: true
+
+
+junctionReplacement: dlc-liquid-junction
+rotBridgeReplacement: dlc-liquid-bridge
+
+
