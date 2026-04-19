@@ -4,7 +4,7 @@ type: ItemTurret
 size: 2
 squareSprite: false
 health: 600
-shootSound: shoot-mashinegun
+shootSound: echo-fleet-shoot-mashinegun
 hasItems: true
 hasPower: true
 hasLiquids: true
@@ -19,7 +19,7 @@ requirements: [
 category: turret
 consumes: {
   power: 0.25
-  liquid: efdlc-slag/0.05
+  liquid: efdlc-slag/0.1
 } 
 
 
