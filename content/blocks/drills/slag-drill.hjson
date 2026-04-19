@@ -1,5 +1,5 @@
 name: Slag Drill,
-description: Extracts ores from the ground by heating them up using slag. Can only extract basic, softer materials.
+description: Extracts ores from the ground by heating them up using slag. Can only extract basic and relatively soft materials.
 type: Drill,
 hasLiquids: false
 size: 3,
@@ -8,7 +8,8 @@ tier: 3,
 drillTime: 120,
 drawMineItem": true,
 liquidBoostIntensity: 1
-rotateSpeed: 4
+rotateSpeed: 3
+squareSprite: false
 consumes: {
        liquid: {
            liquid: efdlc-slag
