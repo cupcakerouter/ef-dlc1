@@ -10,7 +10,7 @@ hasLiquids: true
 hasPower: true
 ignoreLiquidFullness: false
 size: 2
-liquidCapacity: 50
+liquidCapacity: 25
 squareSprite: false
 
 consumes: {
