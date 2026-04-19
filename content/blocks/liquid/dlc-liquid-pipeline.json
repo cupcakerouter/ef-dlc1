@@ -10,7 +10,7 @@ requirements: [
 
 
 health: 60
-leaks: true
+leaks: false
 underBullets: true
 
 

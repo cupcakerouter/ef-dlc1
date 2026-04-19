@@ -1,15 +1,15 @@
 type: LiquidRouter
 size: 2
 hasLiquids: true
-liquidCapacity: 600
+liquidCapacity: 350
 name: Liquid Tank
-description: Equally distributes liquids to 7 sides. Can store moderate amounts of liquids. 
+description: Equally distributes liquids to 7 sides. Can store a small amount of liquids. 
 category: liquid
 
 
 requirements: [
-  efdlc-scrap/30
-  efdlc-alluminum/20
+  efdlc-scrap/80
+  efdlc-copper/50
 ]
 
 
