@@ -1,0 +1,27 @@
+type: HeatConductor
+health: 100
+size: 1
+category: crafting
+requirements: [
+efdlc-scrap/15
+efdlc-copper/15
+]
+
+regionRotated1: 1
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawHeatOutput
+    }
+    {
+      type: DrawHeatInput
+      suffix: -heat
+    }
+  ]
+}
+group: heat
+splitHeat: true
