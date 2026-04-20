@@ -48,7 +48,11 @@ drawer: {
     }
     {
       type: DrawDefault
-    } 
+    }
+    {
+      type: DrawRegion
+      suffix: -top
+    }
   ]
 }
 
