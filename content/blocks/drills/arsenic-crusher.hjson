@@ -9,11 +9,12 @@ liquidCapacity: 30
 category: production
 squareSprite: false
 
+maxBoost 3
 
 consumes: {
   power: 0.5
   liquids: [
-    efdlc-slag/0.1
+    efdlc-carbon-dioxide/0.05
   ] 
 }
 liquidBoostIntensity: 1
@@ -26,7 +27,7 @@ requirements: [
 
 
 drillTime: 90
-outputItem: copper/1
+outputItem: arsenic/1
 attribute: arsenic
 ambientSound: loopDrill
 ambientSoundVolume: 0.08
