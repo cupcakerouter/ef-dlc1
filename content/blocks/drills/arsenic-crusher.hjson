@@ -27,7 +27,7 @@ requirements: [
 
 
 drillTime: 90
-output: arsenic/1
+output: arsenic
 attribute: arsenic
 ambientSound: loopDrill
 ambientSoundVolume: 0.08
