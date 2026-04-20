@@ -9,7 +9,7 @@ liquidCapacity: 30
 category: production
 squareSprite: false
 
-maxBoost 3
+
 consumes: {
   power: 0.5
   liquids: [
