@@ -1,7 +1,7 @@
-name: Slag Drill,
+name: Arsenic Crusher,
 description: Extracts arsenic when placed next to arsenic tiles. More efficient at mining crystals.
-type: Drill,
-hasLiquids: false
+type: WallCrafter,
+hasLiquids: true
 size: 2,
 itemCapacity": 10,
 tier: 1,
