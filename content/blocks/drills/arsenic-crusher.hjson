@@ -5,12 +5,14 @@ hasLiquids: true
 size: 2,
 itemCapacity": 10,
 tier: 1,
-drillTime: 120,
+drillTime: 90,
 drawMineItem": true,
 liquidBoostIntensity: 1
 rotateSpeed: 4
 
 attribute: arsenic
+rotatorRegion: -rotator
+outputItem: copper
 
 consumes: {
 power: 0.5,
