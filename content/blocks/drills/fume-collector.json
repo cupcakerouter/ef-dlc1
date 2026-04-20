@@ -1,0 +1,58 @@
+type: ThermalGenerator
+name: Water Accumulator
+description: Collects carbon dioxide emitted from vents. Additionally outputs some power.
+size: 3
+attribute: steam
+displayEfficiencyScale: 0.11111111111
+displayEfficiency: false
+minEfficiency: 8
+powerProduction: 2
+generateEffect: turbinegenerate
+effectChance: 0.1
+squareSprite: false
+category: production
+hasLiquids: true
+hasPower: true
+
+
+outputLiquid: efdlc-carbon-dioxide/0.15
+
+
+requirements: [
+    efdlc-scrap/35
+]
+
+
+ambientSound: loopHum
+ambientSoundVolume: 0.12
+
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawLiquidRegion
+      suffix: -liquid
+      drawLiquid: efdlc-carbon-dioxide
+      alpha: 0.7
+      padding: 2
+    } 
+    {
+      type: DrawRegion
+      suffix: -rotator
+      spinSprite: true
+      rotateSpeed: -5
+    }
+    {
+      type: DrawDefault
+    } 
+  ]
+}
+
+
+
+
+
