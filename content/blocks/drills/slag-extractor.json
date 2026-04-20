@@ -44,9 +44,6 @@ drawer: {
       alpha: 1
     }
     {
-      type: DrawDefault
-    } 
-    {
 	  type: DrawGlowRegion
 	  suffix: -glow
 	  glowScale: 10
