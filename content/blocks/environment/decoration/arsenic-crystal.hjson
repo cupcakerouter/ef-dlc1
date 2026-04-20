@@ -3,5 +3,5 @@ variants: 2
 customShadow: true
 shadowOffset: -1.25
 attributes: {
-arsenic: 1
+arsenic: 1.5
 }
