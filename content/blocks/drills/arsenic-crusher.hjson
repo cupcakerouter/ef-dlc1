@@ -1,36 +1,34 @@
-name: Arsenic Crusher,
+type: WallCrafter
+name: Arsenic Crusher
 description: Extracts arsenic when placed next to arsenic tiles. More efficient at mining crystals.
-type: WallCrafter,
+size: 2
+itemCapacity: 10
+hasPower: true
 hasLiquids: true
-size: 2,
-itemCapacity": 10,
-tier: 1,
-drillTime: 90,
-drawMineItem": true,
-liquidBoostIntensity: 1
-rotateSpeed: 4
+liquidCapacity: 30
+category: production
+squareSprite: false
 
-attribute: arsenic
-rotatorRegion: -rotator
-outputItems: [
-copper/1
-]
 
 consumes: {
-power: 0.5,
-       liquid: {
-           liquid: efdlc-slag
-           amount: 0.1
-           optional: false
-           booster: false
-       }
-  },
-    liquidBoostIntensity: 1
-requirements: [
-efdlc-scrap/50
-efdlc-copper/30
-]
-    ambientSound: DrillLoop,
-    ambientSoundVolume: 0.25
+  power: 0.5
+  liquids: [
+    efdlc-slag/0.1
+  ] 
+}
+liquidBoostIntensity: 1
 
-category: production
+
+requirements: [
+  efdlc-scrap/50
+  efdlc-copper/30
+]
+
+
+drillTime: 90
+outputItem: copper/1
+attribute: arsenic
+ambientSound: loopDrill
+ambientSoundVolume: 0.08
+alwaysUnlocked: true
+rotateSpeed: 4
