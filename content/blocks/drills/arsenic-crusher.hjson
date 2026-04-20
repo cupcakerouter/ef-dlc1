@@ -3,31 +3,32 @@ name: Arsenic Crusher
 description: Extracts arsenic when placed next to arsenic tiles. More efficient at mining crystals.
 size: 2
 itemCapacity: 10
+hasPower: true
 hasLiquids: true
 liquidCapacity: 30
 category: production
+squareSprite: false
+
+
 consumes: {
-power: 0.5,
-       liquid: {
-           liquid: efdlc-slag
-           amount: 0.1
-           optional: false
-           booster: false
-       }
-  },
-    liquidBoostIntensity: 1
+  power: 0.5
+  liquids: [
+    efdlc-slag/0.1
+  ] 
+}
+liquidBoostIntensity: 1
+
+
 requirements: [
-efdlc-scrap/50
-efdlc-copper/30
+  efdlc-scrap/50
+  efdlc-copper/30
 ]
+
+
 drillTime: 90
-outputItems: [
-       copper/1
-]
+outputItem: copper/1
 attribute: arsenic
-ambientSound: drill
+ambientSound: loopDrill
 ambientSoundVolume: 0.08
 alwaysUnlocked: true
 rotateSpeed: 4
-
-//theoretically works. i am not invested in this do not mention this to me if it doesnt work i do not care
