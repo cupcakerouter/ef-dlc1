@@ -36,6 +36,9 @@ drawer: {
       type: DrawRegion
       suffix: -bottom
     }
+	{
+	  type: DrawDefault
+    }
     {  
       type: DrawLiquidRegion
       drawLiquid: efdlc-slag
