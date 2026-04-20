@@ -8,7 +8,7 @@ displayEfficiency: false
 minEfficiency: 8
 powerProduction: 0.22222222222222222
 generateEffect: turbinegenerate
-effectChance: 0.1
+effectChance: 0.03
 squareSprite: false
 category: production
 hasLiquids: true
