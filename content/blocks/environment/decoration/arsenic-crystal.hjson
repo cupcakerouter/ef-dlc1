@@ -1,3 +1,6 @@
-"type": "staticTree"
+"type": "TallBlock"
 variants: 2
 customShadow: true
+attributes: {
+arsenic: 1
+}
