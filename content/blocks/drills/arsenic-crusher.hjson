@@ -13,7 +13,7 @@ rotateSpeed: 4
 attribute: arsenic
 rotatorRegion: -rotator
 outputItems: [
-copper
+copper/1
 ]
 
 consumes: {
