@@ -12,9 +12,9 @@ rotateSpeed: 4
 
 attribute: arsenic
 rotatorRegion: -rotator
-outputItems: {
+outputItems: [
 copper
-}
+]
 
 consumes: {
 power: 0.5,
