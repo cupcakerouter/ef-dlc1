@@ -1,5 +1,5 @@
 type: ThermalGenerator
-name: Water Accumulator
+name: Fume collector
 description: Collects carbon dioxide emitted from vents. Additionally outputs some power.
 size: 3
 attribute: steam
@@ -37,8 +37,8 @@ drawer: {
       type: DrawLiquidRegion
       suffix: -liquid
       drawLiquid: efdlc-carbon-dioxide
-      alpha: 0.7
-      padding: 2
+      alpha: 1
+      padding: 3
     } 
     {
       type: DrawRegion
@@ -47,8 +47,7 @@ drawer: {
       rotateSpeed: -5
     }
     {
-      type: DrawRegion
-      suffix: -top
+      type: DrawDefault
     }
   ]
 }
