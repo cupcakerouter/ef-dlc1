@@ -6,7 +6,7 @@ attribute: steam
 displayEfficiencyScale: 0.11111111111
 displayEfficiency: false
 minEfficiency: 8
-powerProduction: 2
+powerProduction: 0.22222222222222222
 generateEffect: turbinegenerate
 effectChance: 0.1
 squareSprite: false
@@ -15,7 +15,7 @@ hasLiquids: true
 hasPower: true
 
 
-outputLiquid: efdlc-carbon-dioxide/0.15
+outputLiquid: efdlc-carbon-dioxide/0.16666666666666666666
 
 
 requirements: [
