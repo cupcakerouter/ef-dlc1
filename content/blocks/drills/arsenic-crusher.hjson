@@ -1,29 +1,32 @@
 name: Slag Drill,
-description: Extracts ores from the ground by heating them up using slag. Can only extract basic, softer materials.
+description: Extracts arsenic when placed next to arsenic tiles. More efficient at mining crystals.
 type: Drill,
 hasLiquids: false
-size: 3,
-itemCapacity": 15,
-tier: 3,
+size: 2,
+itemCapacity": 10,
+tier: 1,
 drillTime: 120,
 drawMineItem": true,
 liquidBoostIntensity: 1
 rotateSpeed: 4
+
+attribute: arsenic
+
 consumes: {
+power: 0.5,
        liquid: {
            liquid: efdlc-slag
-           amount: 0.05
+           amount: 0.1
            optional: false
            booster: false
        }
   },
     liquidBoostIntensity: 1
 requirements: [
-efdlc-scrap/35
-efdlc-copper/20
+efdlc-scrap/50
+efdlc-copper/30
 ]
-## yes I know, you dont need to say it
-    ambientSound: drill,
-    ambientSoundVolume: 0.1
+    ambientSound: DrillLoop,
+    ambientSoundVolume: 0.25
 
 category: production
