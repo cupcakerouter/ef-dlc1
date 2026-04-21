@@ -23,7 +23,7 @@ outputLiquids: [
 consumes: {
     power: 0.3
 	liquids: [
-        efdlc0slag/0.1
+        efdlc-slag/0.1
         efdlc-pure-water/0.2
     ]
 }
