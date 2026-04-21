@@ -1,0 +1,77 @@
+type: GenericCrafter
+name: Neutralizer Infuser
+description: Cools down slag, mixes it with pure water and then combines it with fine arsenic power to create neutralizer. Requires a small amount of power.
+category: crafting
+size: 3
+
+
+hasLiquids: true
+hasItems: true
+squareSprite: false
+hasPower: true
+
+
+liquidCapacity: 100
+itemCapacity: 15
+
+
+outputLiquids: [
+    efdlc-neutralizer/0.5
+]
+
+
+consumes: {
+    power: 0.3
+	liquids: [
+        efdlc0slag/0.1
+        efdlc-pure-water/0.2
+    ]
+}
+craftTime: 60
+
+
+ambientSound: loopSteam
+ambientSoundVolume: 0.08
+
+
+requirements: [
+  efdlc-scrap/50
+  efdlc-copper/25
+]
+
+
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawLiquidRegion
+	  suffix: -liquid
+      drawLiquid: efdlc-neutralizer
+      alpha: 1
+      padding: 3
+    }
+    {
+    type: DrawCrucibleFlame
+    flameColor: 80EAFFFF
+	particleRad: 3
+	particleLife: 240
+	fadeMargin: 1
+	rotateScl: 1
+	circleStroke: 0
+    }
+    {
+      type: DrawDefault
+    }
+    {
+	  type: DrawGlowRegion
+	  suffix: -glow
+	  glowScale: 1
+	  color: 80EAFFFF
+	}
+  ]
+}
+
