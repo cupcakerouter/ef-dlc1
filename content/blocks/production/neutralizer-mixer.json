@@ -57,7 +57,7 @@ drawer: {
     {
     type: DrawCrucibleFlame
     flameColor: 80EAFFFF
-	particleRad: 3
+	particleRad: 6
 	particleLife: 240
 	fadeMargin: 1
 	rotateScl: 1
@@ -69,9 +69,8 @@ drawer: {
     {
 	  type: DrawGlowRegion
 	  suffix: -glow
-	  glowScale: 1
+	  glowScale: 50
 	  color: 80EAFFFF
 	}
   ]
 }
-
