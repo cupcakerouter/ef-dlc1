@@ -1,0 +1,14 @@
+type: Floor
+name: Pure Water
+speedMultiplier: 0.75
+variants: 3
+status: wet
+statusDuration: 600
+liquidDrop: efdlc-pure-water
+isLiquid: true
+cacheLayer: water
+albedo: 0.8
+supportsOverlay: true
+shallow: true
+liquidMultiplier: 0.5
+

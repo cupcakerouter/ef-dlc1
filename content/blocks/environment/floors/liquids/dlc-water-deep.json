@@ -1,0 +1,14 @@
+type: Floor
+name: Deep Pure Water
+speedMultiplier: 0.45
+variants: 3
+status: wet
+statusDuration: 600
+liquidDrop: efdlc-pure-water
+isLiquid: true
+cacheLayer: water
+albedo: 0.8
+supportsOverlay: true
+shallow: false
+liquidMultiplier: 1
+
