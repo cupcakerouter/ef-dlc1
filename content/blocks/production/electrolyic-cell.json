@@ -20,7 +20,7 @@ outputLiquids: [
     efdlc-hydrogen/0.4
     efdlc-ozone/0.2
 ]
-liquidOutputDirections: [1,3]
+liquidOutputDirections: [2,4]
 
 
 consumes: {
