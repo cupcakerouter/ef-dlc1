@@ -71,15 +71,12 @@ drawer: {
       alpha: 1
       padding: 3
     },
-{
-    type: DrawSideRegion
-},
     {
       type: DrawDefault
     },
 {
-type: DrawRegion
-suffix: -top
+    type: DrawSideRegion
+}
 }
   ]
 }
