@@ -17,7 +17,7 @@ itemCapacity: 0
 
 
 outputLiquids: [
-    efdlc-hydrogen/0.25
+    efdlc-hydrogen/0.3
     efdlc-ozone/0.15
 ]
 liquidOutputDirections: [2,4]
