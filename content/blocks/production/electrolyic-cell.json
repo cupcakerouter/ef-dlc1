@@ -37,8 +37,8 @@ ambientSoundVolume: 0.1
 
 
 requirements: [
-  efdlc-scrap/90
-  efdlc-copper/45
+  efdlc-scrap/70
+  efdlc-copper/35
 ]
 
 
