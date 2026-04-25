@@ -14,5 +14,5 @@ gas: true
 blockReactive: false
 
 
-research: efdlc-alluminum
+research: efdlc-pure-water
 hiddenOnPlanets: [serpulo, erekir]
