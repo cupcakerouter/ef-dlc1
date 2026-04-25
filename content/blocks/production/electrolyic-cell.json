@@ -3,7 +3,7 @@ name: Neutralizer Infuser
 description: Uses electricity to break down pure water into ozone and hydrogen. 
 category: crafting
 size: 2
-
+rotate: true
 
 hasLiquids: true
 hasItems: false
