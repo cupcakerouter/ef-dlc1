@@ -69,6 +69,10 @@ drawer: {
       alpha: 1
       padding: 3
     },
+{
+    type: DrawSideRegion
+	suffix: -top
+  }
     {
       type: DrawDefault
     }
