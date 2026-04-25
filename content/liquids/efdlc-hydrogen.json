@@ -1,18 +1,17 @@
 type: Liquid
-name: Ozone
-description: Combustible gas with oxidizing properties. 
-color: FF80D4DF
+name: Hydrogen
+description: It do be hydrogening
+color: cceeff
 
-explosiveness: 0.6
-flammability: 0.2
-heatCapacity: 0.8
+explosiveness: 0.3
+flammability: 0.4
+heatCapacity: 0.6
 viscosity: 0
 temperature: 0.4
 boilPoint: -4
-gasColor: FF80D4DF
+gasColor: cceeff
 gas: true
 blockReactive: false
 
-
-research: efdlc-alluminum
+research: efdlc-pure-water
 hiddenOnPlanets: [serpulo, erekir]
