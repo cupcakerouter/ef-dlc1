@@ -17,17 +17,16 @@ itemCapacity: 0
 
 
 outputLiquids: [
-    efdlc-hydrogen/0.4
-    efdlc-ozone/0.2
+    efdlc-hydrogen/0.25
+    efdlc-ozone/0.15
 ]
 liquidOutputDirections: [2,4]
 
 
 consumes: {
-    power: 0.25
+    power: 0.5
 	liquids: [
-        efdlc-slag/0.1
-        efdlc-pure-water/0.5
+        efdlc-pure-water/0.4
     ]
 }
 craftTime: 60
