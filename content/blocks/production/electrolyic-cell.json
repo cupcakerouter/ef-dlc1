@@ -1,0 +1,77 @@
+type: GenericCrafter
+name: Neutralizer Infuser
+description: Uses electricity to break down pure water into ozone and hydrogen. 
+category: crafting
+size: 2
+
+
+hasLiquids: true
+hasItems: false
+squareSprite: false
+hasPower: true
+
+
+liquidCapacity: 50
+itemCapacity: 0
+
+
+outputLiquids: [
+    efdlc-hydrogen/0.4
+    efdlc-ozone/0.2
+]
+liquidOutputDirections: [1,3]
+
+consumes: {
+    power: 0.25
+	liquids: [
+        efdlc-slag/0.1
+        efdlc-pure-water/0.5
+    ]
+}
+craftTime: 60
+
+
+ambientSound: loopElectricHum
+ambientSoundVolume: 0.1
+
+
+requirements: [
+  efdlc-scrap/90
+  efdlc-copper/45
+]
+
+
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawLiquidRegion
+	  suffix: -liquid1
+      drawLiquid: efdlc-hydrogen
+      alpha: 1
+      padding: 3
+    },
+    {
+      type: DrawLiquidRegion
+	  suffix: -liquid2
+      drawLiquid: efdlc-pure-water
+      alpha: 1
+      padding: 3
+    },
+    {
+      type: DrawLiquidRegion
+	  suffix: -liquid3
+      drawLiquid: efdlc-ozone
+      alpha: 1
+      padding: 3
+    },
+    {
+      type: DrawDefault
+    }
+  ]
+}
+
