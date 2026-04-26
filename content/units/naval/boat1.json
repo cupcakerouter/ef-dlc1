@@ -37,17 +37,20 @@ weapons: [
       shotDelay: 5
     } 
     bullet: {
+      lifeScaleRandMin: 0.9
+      lifeScaleRandMax: 1.1
       keepVelocity: false
       type: BasicBulletType
       #sprite:
       width: 8
       height: 12
+      inaccuracy: 5
       splashDamageRadius: 12
       splashDamage: 10
       lifetime: 40
       damage: 15
-      speed: 0.5
-      accel: 0.1
+      speed: 0.1
+      accel: 0.25
       smokeEffect: shootSmallSmoke
       trailColor: FFA600
       trailWidth: 1
