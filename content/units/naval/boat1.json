@@ -1,9 +1,9 @@
-# change the file name to what you want
-# name:
-# description:
+//change the file name to what you want
+//name:
+//description:
 type: naval
 
-# speed, health, armor, drag, accel, hitsize, rotate speed and trailLength can be changed
+//speed, health, armor, drag, accel, hitsize, rotate speed and trailLength can be changed
 speed: 1
 health: 500
 armor: 2
@@ -18,7 +18,7 @@ outlineColor: 13151AFF
 moveSoundVolume: 0.34
 moveSound: shipMove
 
-# configure this however you want. this is juts a basic idea that you might not even like
+//configure this however you want. this is juts a basic idea that you might not even like
 weapons: [
   {
     mirror: false
@@ -69,4 +69,4 @@ weapons: [
 immunities: [
   wet
 ]
-# research: 
+//research: 
