@@ -34,19 +34,21 @@ weapons: [
     shootSoundVolume: 0.09
     shoot: {
       shots: 3
-      shootDelay: 5
+      shotDelay: 5
     } 
     bullet: {
+      keepVelocity: false
       type: BasicBulletType
       #sprite:
-      width: 5
+      width: 8
+      height: 12
       splashDamageRadius: 12
       splashDamage: 10
       lifetime: 40
       damage: 15
       speed: 0.5
-      drag: -0.1
-      smokeEffect: colorSpark
+      acceleration: 0.1
+      smokeEffect: shootSmoke
       trailColor: FFA600
       trailWidth: 1
       trailLength: 6
