@@ -35,6 +35,7 @@ weapons: [
     shoot: {
       shots: 3
       shootDelay: 5
+    } 
     bullet: {
       type: BasicBulletType
       #sprite:
@@ -60,8 +61,8 @@ weapons: [
         sizeTo: 15
         colorFrom: ffffff
         colorTo: FFA600
-        }
       }
+    }
   }
 ]
 
