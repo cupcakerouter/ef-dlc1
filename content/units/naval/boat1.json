@@ -30,7 +30,7 @@ weapons: [
     y: -2
     reload: 60
     recoil: 1.25
-    shootSound: shootPlasma
+    shootSound: shootCyclone
     shootSoundVolume: 0.09
     shoot: {
       shots: 3
