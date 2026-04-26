@@ -4,16 +4,16 @@
 type: naval
 
 //speed, health, armor, drag, accel, hitsize, rotate speed and trailLength can be changed
-speed: 1
+speed: 2
 health: 500
 armor: 2
 aimDst: 10
-range: 90
+range: 160
 drag: 0.1
-accel: 1
+accel: 0.05
 hitSize: 10
-rotateSpeed: 2.4
-trailLength: 15
+rotateSpeed: 3
+trailLength: 16
 outlineColor: 13151AFF
 moveSoundVolume: 0.34
 moveSound: shipMove
