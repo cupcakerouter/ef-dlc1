@@ -48,7 +48,7 @@ weapons: [
       damage: 15
       speed: 0.5
       acceleration: 0.1
-      smokeEffect: shootSmoke
+      smokeEffect: smokePuff
       trailColor: FFA600
       trailWidth: 1
       trailLength: 6
