@@ -1,0 +1,72 @@
+#change the file name to what you want
+#name:
+#description:
+type: naval
+
+#speed, health, armor, drag, accel, hitsize, rotate speed and trailLength can be changed
+speed: 1
+health: 500
+armor: 2
+aimDst: 10
+range: 90
+drag: 0.1
+accel: 1
+hitSize: 10
+rotateSpeed: 2.4
+trailLength: 15
+outlineColor: 13151AFF
+moveSoundVolume: 0.34
+moveSound: shipMove
+
+#configure this however you want. this is juts a basic idea that you might not even like
+weapons: [
+  {
+    mirror: false
+    alternate: false
+    rotate: true
+    #name: 
+    rotateSpeed: 2
+    x: 0
+    y: -2
+    reload: 60
+    recoil: 1.25
+    shootSound: shootPlasma
+    shootSoundVolume: 0.09
+    shoot: {
+      shots: 3
+      shootDelay: 5
+    bullet: {
+      type: BasicBulletType
+      #sprite:
+      width: 5
+      splashDamageRadius: 12
+      splashDamage: 10
+      lifetime: 40
+      damage: 15
+      speed: 0.5
+      drag: -0.1
+      smokeEffect: colorSpark
+      trailColor: FFA600
+      trailWidth: 1
+      trailLength: 6
+      backColor: E2A000
+      hitColor: E2A000
+      despawnEffect: {
+        type: WaveEffect
+        rotWithParent: true
+        followParent: true
+        lifetime: 8
+        sizeFrom: 0
+        sizeTo: 15
+        colorFrom: ffffff
+        colorTo: FFA600
+        }
+      }
+  }
+]
+
+
+immunities: [
+  wet
+]
+#research: 
