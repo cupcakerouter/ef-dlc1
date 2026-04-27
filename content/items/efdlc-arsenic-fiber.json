@@ -1,0 +1,10 @@
+name: Arsenic Fiber
+description: A fiber created out of various materials. Fairly durable, flexible and conductive, making it good for a variety of advanced applications.
+type: item
+flammability: 0
+explosiveness: 0
+radioactivity: 0
+charge: 0.3
+hardness: 3
+cost: 3
+hiddenOnPlanets: [serpulo, erekir, aetheria]
