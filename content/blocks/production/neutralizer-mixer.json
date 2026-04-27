@@ -27,7 +27,7 @@ consumes: {
         efdlc-pure-water/0.2
     ]
 items: [
-arsenic/1
+efdlc-arsenic/1
 ]
 }
 craftTime: 60
