@@ -1,0 +1,69 @@
+type: HeatProducer
+name: Cupride Chamber
+description: Oxidizes copper using ozone. Uses a small 
+size: 4
+
+
+hasLiquids: true
+hasPower: true
+hasItems: true
+heatOutput: 3
+craftTime: 120
+squareSprite: false
+
+
+ambientSound: loopHum
+ambientSoundVolume: 0.06
+category: crafting
+
+
+requirements: [
+	efdlc-scrap/250
+	efdlc-copper/120
+]
+
+
+consumes: {
+	items: [
+   	efdlc-copper/1
+	]
+	liquids: [
+		efdlc-ozone/0.2
+		efdlc-neutralizer/0.133333333333333333333
+        efdlc-slag/0.1
+	]
+}
+
+
+outputItems: [
+	edcupride/2
+]
+sideHeat: [1]
+
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+	  type: DrawLiquidRegion
+      suffix: -liquid
+      drawLiquid: efdlc-ozone
+      alpha: 1
+      padding: 3
+	}
+    {
+	  type: DrawDefault
+	}
+    {
+	  type: DrawHeatOutput
+	}
+    {
+      type: DrawGlowRegion
+      suffix: -glow
+      glowScale: 10
+	}
+  ]
+} 
