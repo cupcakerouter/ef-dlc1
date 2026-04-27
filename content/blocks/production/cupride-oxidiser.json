@@ -1,13 +1,12 @@
 type: HeatProducer
 name: Cupride Chamber
-description: Oxidizes copper using ozone. Uses a small 
-size: 4
-
+description: Oxidizes copper using ozone. Uses slag for powering itself and neutralizer to get rid of pollution. Outputs a decent amount of heat.
+size: 3
 
 hasLiquids: true
 hasPower: true
 hasItems: true
-heatOutput: 3
+heatOutput: 8
 craftTime: 120
 squareSprite: false
 
@@ -59,11 +58,6 @@ drawer: {
 	}
     {
 	  type: DrawHeatOutput
-	}
-    {
-      type: DrawGlowRegion
-      suffix: -glow
-      glowScale: 10
 	}
   ]
 } 
