@@ -1,0 +1,56 @@
+type: AttributeCrafter
+attribute: heat
+baseEfficiency: 0
+minEfficiency: 0.25
+maxBoost: 1
+
+displayEfficiency: true
+hasItems: false
+hasLiquids: true
+hasPower: true
+ignoreLiquidFullness: false
+size: 2
+liquidCapacity: 50
+squareSprite: false
+
+consumes: {
+    power: 0.25
+
+}
+
+outputLiquid: efdlc-slag/0.05
+
+category: production
+ambientSound: hum
+ambientSoundVolume: 0.06
+
+requirements: [
+efdlc-scrap/25
+efdlc-copper/30
+]
+
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {  
+      type: DrawLiquidRegion
+      drawLiquid: efdlc-slag
+      suffix: -liquid
+      padding: 3
+      alpha: 1
+    }
+    {
+      type: DrawDefault
+    } 
+    {
+      type: DrawGlowRegion
+      suffix: -glow
+      glowScale: 10
+    }
+  ]
+}
+
