@@ -36,7 +36,7 @@ consumes: {
 
 
 outputItems: [
-	edcupride/2
+	efdlc-cupride/2
 ]
 sideHeat: [1]
 
