@@ -5,8 +5,8 @@ size: 2
 
 
 hasLiquids: true
-hasPower: true
-hasItems: true
+hasPower: false
+hasItems: false
 heatOutput: 1
 craftTime: 60
 squareSprite: false
