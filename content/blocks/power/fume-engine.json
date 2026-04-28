@@ -1,4 +1,4 @@
-type: HeatConsumer
+type: HeatBlock
 heatRequirement: 4
 description: Creates power by heating carbon dioxide. Requires neutralizer to get rid of waste.
 size: 3
