@@ -1,0 +1,70 @@
+type: HeatCrafter
+heatRequirement: 4
+description: Creates power by heating carbon dioxide. Requires neutralizer to get rid of waste.
+size: 3
+category: power
+squareSprite: false
+
+
+requirements: [
+  efdlc-scrap/150
+  efdlc-copper/75
+  efdlc-arsenic-fiber/10
+]
+
+
+consumes: {
+  liquids: [
+ 	efdlc-carbon-dioxide/0.1
+	efdlc-neutralizer/0.1
+  ]
+}
+
+
+powerProduction: 6
+ambientSound: loopSmelter
+ambientSoundVolume: 0.1
+hasLiquids: true
+hasPower: true
+
+
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: efdlc-carbon-dioxide
+      alpha: 1
+      padding: 3
+    } 
+    {
+	  type: DrawCrucibleFlame
+	  particleRad: 10
+	  flameRad: 3
+	  partcileSize: 4
+	  rotateScl: 2
+	  particles: 50
+	  particleLife: 120
+	}
+    {
+      type: DrawDefault
+    }
+   {
+	  type: DrawHeatInput
+	  suffix: -heat
+	} 
+    {
+	    type: DrawGlowRegion
+	    alpha: 1
+	    glowIntensity: 0.6
+	    color: FF40BFFF
+	    suffix: -glow
+	    glowScale: 20
+	  }
+  ]
+}
+	
