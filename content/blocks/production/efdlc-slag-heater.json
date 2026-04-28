@@ -25,7 +25,7 @@ requirements: [
 
 consumes: {
 	liquids: [
-        efdlc-slag/0.2
+        efdlc-slag/0.1
 	]
 }
 
