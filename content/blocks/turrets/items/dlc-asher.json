@@ -1,5 +1,5 @@
 name: Asher
-description: Shoots different molten types of items at ground and air targets. Can pierce several targets. 
+description: Shoots different items at ground and air targets. Can pierce several targets. 
 type: ItemTurret
 size: 2
 squareSprite: false
@@ -19,7 +19,7 @@ requirements: [
 category: turret
 consumes: {
   power: 0.25
-  liquid: efdlc-slag/0.1
+  liquid: efdlc-slag/0.05
 } 
 
 
@@ -33,7 +33,7 @@ range: 192
 shootY: 6
 
 
-ammoPerShot: 2
+ammoPerShot: 1
 ammoTypes: {
   efdlc-copper: {
     type: BasicBulletType
@@ -247,19 +247,19 @@ ammoTypes: {
       }
   	]
   }
-  efdlc-alluminum: {
+  efdlc-arsenic: {
     type: BasicBulletType
     buildingDamageMultiplier: 0.25
-    damage: 50
+    damage: 35
     width: 7
-	reloadMultiplier: 1.6
+	reloadMultiplier: 2
 	sprite: large-orb
     height: 9.5
     shrinkX:0
 	shrinkY:0
     speed: 6
     lifetime: 32
-	homingPower: 0.2
+	homingPower: 0.3
     hitEffect: [
 	  {
       type: ParticleEffect
@@ -273,8 +273,8 @@ ammoTypes: {
 	  sizeFrom: 2
 	  sizeTo: 6
 	  baseRotation:180
-      colorFrom: B4CCBE00
-	  colorTo: B4CCBE00
+      colorFrom: ff7a3300
+	  colorTo: ff7a3300
       }
       {
 	  type: ParticleEffect
@@ -288,8 +288,8 @@ ammoTypes: {
 	  sizeFrom: 2
 	  sizeTo: 4
 	  baseRotation:180
-	  colorFrom: B4CCBE00
-	  colorTo: B4CCBE00
+	  colorFrom: ff7a3300
+	  colorTo: ff7a3300
       }
 	  {
 	  type: ParticleEffect
@@ -301,8 +301,8 @@ ammoTypes: {
       sizeFrom: 2
 	  sizeTo: 0
 	  baseRotation:180
-	  colorFrom: B4CCBE
-	  colorTo: B4CCBE
+	  colorFrom: ff7a33
+	  colorTo: ff7a33
       }
       {
 	  type: WaveEffect
@@ -310,8 +310,8 @@ ammoTypes: {
 	  sizeTo: 12
 	  strokeTo:7
 	  lifetime: 20
-	  colorFrom: B4CCBE
-	  colorTo: B4CCBE00
+	  colorFrom: ff7a33
+	  colorTo: ff7a3300
       }
     ]
     despawnEffect: [
@@ -327,8 +327,8 @@ ammoTypes: {
       sizeFrom: 2
       sizeTo: 6
       baseRotation:180
-      colorFrom: B4CCBE00
-      colorTo: B4CCBE00
+      colorFrom: ff7a3300
+      colorTo: ff7a3300
       }
       {
       type: ParticleEffect
@@ -342,8 +342,8 @@ ammoTypes: {
       sizeFrom: 2
       sizeTo: 4
       baseRotation:180
-      colorFrom: B4CCBE60
-      colorTo: B4CCBE00
+      colorFrom: ff7a3360
+      colorTo: ff7a3300
       }
       {
       type: ParticleEffect
@@ -355,8 +355,8 @@ ammoTypes: {
       sizeFrom: 2
       sizeTo: 0
       baseRotation:180
-      colorFrom: B4CCBE
-      colorTo: B4CCBE
+      colorFrom: ff7a33
+      colorTo: ff7a33
       }
       {
       type: WaveEffect
@@ -364,14 +364,14 @@ ammoTypes: {
       sizeTo: 12
       strokeTo:7
 	  lifetime: 20
-      colorFrom: B4CCBE
-      colorTo: B4CCBE00
+      colorFrom: ff7a33
+      colorTo: ff7a3300
       }
     ]
     pierceCap: 3
     pierce: true
     pierceBuilding: true  
-    trailColor: B4CCBE
+    trailColor: ff7a33
     trailInterval: 1
     trailRotation: true
     trailLength: 7
@@ -389,8 +389,8 @@ ammoTypes: {
       sizeFrom: 2
       sizeTo: 4
       baseRotation:180
-      colorFrom: B4CCBEAA
-      colorTo: B4CCBE00
+      colorFrom: ff7a33AA
+      colorTo: ff7a3300
       }
       {
       type: ParticleEffect
@@ -403,8 +403,8 @@ ammoTypes: {
       length: 6
       sizeFrom: 2
       sizeTo: 3
-      colorFrom: B4CCBE00
-      colorTo: B4CCBE00
+      colorFrom: ff7a3300
+      colorTo: ff7a3300
       }
       {
       type: ParticleEffect
@@ -429,7 +429,7 @@ ammoTypes: {
       sizeTo: 0
       baseRotation:180
       colorFrom: ffffff
-      colorTo: B4CCBE
+      colorTo: ff7a33
       }
    	]
     shootEffect: [
@@ -443,8 +443,8 @@ ammoTypes: {
       interp:pow3Out
       sizeFrom: 2
       sizeTo: 3
-      colorFrom: B4CCBE00
-      colorTo: B4CCBE00
+      colorFrom: ff7a3300
+      colorTo: ff7a3300
       }
       {
       type: ParticleEffect
@@ -456,8 +456,8 @@ ammoTypes: {
       interp:pow5Out
       sizeFrom: 2
       sizeTo: 3
-      colorFrom: ffffffAA
-      colorTo: ffffff00
+      colorFrom: ff7a33AA
+      colorTo: ff7a3300
     }
   ]
 }
