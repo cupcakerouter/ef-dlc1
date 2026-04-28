@@ -1,4 +1,4 @@
-type: HeaterGenerator
+type: HeatConsumer
 heatRequirement: 4
 description: Creates power by heating carbon dioxide. Requires neutralizer to get rid of waste.
 size: 3
@@ -61,7 +61,6 @@ drawer: {
 	    type: DrawGlowRegion
 	    alpha: 1
 	    glowIntensity: 0.6
-	    color: FF40BFFF
 	    suffix: -glow
 	    glowScale: 20
 	  }
