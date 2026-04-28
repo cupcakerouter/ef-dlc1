@@ -1,0 +1,60 @@
+type: HeatProducer
+name: Cupride Chamber
+description: Creates heat using slag.
+size: 2
+
+
+hasLiquids: true
+hasPower: true
+hasItems: true
+heatOutput: 1
+craftTime: 60
+squareSprite: false
+
+
+ambientSound: loopHum
+ambientSoundVolume: 0.04
+category: crafting
+
+
+requirements: [
+	efdlc-scrap/50
+	efdlc-copper/25
+]
+
+
+consumes: {
+	liquids: [
+        efdlc-slag/0.2
+	]
+}
+
+sideHeat: [1]
+
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+	  type: DrawLiquidRegion
+      suffix: -liquid
+      drawLiquid: efdlc-slag
+      alpha: 1
+      padding: 3
+	}
+    {
+	  type: DrawDefault
+	}
+    {
+	  type: DrawHeatOutput
+	}
+    {
+      type: DrawGlowRegion
+      suffix: -glow
+      glowScale: 10
+	}
+  ]
+} 
