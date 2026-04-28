@@ -252,7 +252,7 @@ ammoMultiplier: 1
 ammoMultiplier: 4
     type: BasicBulletType
     buildingDamageMultiplier: 0.25
-    damage: 35
+    damage: 40
     width: 7
 	reloadMultiplier: 2
 	sprite: large-orb
@@ -262,6 +262,16 @@ ammoMultiplier: 4
     speed: 6
     lifetime: 32
 	homingPower: 0.3
+
+    pierceCap: 2
+    pierce: true
+    pierceBuilding: true  
+    trailColor: ff7a33
+    trailInterval: 1
+    trailRotation: true
+    trailLength: 7
+    trailWidth: 1.4
+
     hitEffect: [
 	  {
       type: ParticleEffect
@@ -370,14 +380,7 @@ ammoMultiplier: 4
       colorTo: ff7a3300
       }
     ]
-    pierceCap: 3
-    pierce: true
-    pierceBuilding: true  
-    trailColor: ff7a33
-    trailInterval: 1
-    trailRotation: true
-    trailLength: 7
-    trailWidth: 1.4
+
     trailEffect: [
       {
       type: ParticleEffect
