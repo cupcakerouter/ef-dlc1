@@ -1,6 +1,6 @@
 type: HeatProducer
-name: Cupride Chamber
-description: Creates heat using slag.
+name: Slag Heater
+description: Creates a small amount of heat using slag.
 size: 2
 
 
