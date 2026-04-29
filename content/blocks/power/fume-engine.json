@@ -1,6 +1,6 @@
 type: VariableReactor
 maxHeat: 12
-description: Creates power by heating carbon dioxide. Requires neutralizer to get rid of waste.
+description: Creates power by heating carbon dioxide. Requires neutralizer to get rid of waste. Explodes if heated while not having enough carbon dioxide or neutralizer.
 size: 3
 category: power
 squareSprite: false
@@ -20,12 +20,13 @@ consumes: {
   ]
 }
 
-unstableSpeed: 0.005
-explosionPuddleAmount: 18
-explosionPuddleLiquid: efdlc-neutralizer
-explosionPuddleRange: 32
+unstableSpeed: 0.003
+explosionPuddleAmount: 24
+explosionPuddleLiquid: efdlc-carbon-dioxide
+explosionPuddleRange: 48
 explosionShake: 1
 explosionShakeDuration: 90
+explosionDamage: 125
 
 powerProduction: 8
 ambientSound: loopSmelter
