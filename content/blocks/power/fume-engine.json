@@ -20,12 +20,12 @@ consumes: {
   ]
 }
 
-unstableSpeed: 0.075
-explosionPuddleAmount: 8
+unstableSpeed: 0.5
+explosionPuddleAmount: 12
 explosionPuddleLiquid: efdlc-neutralizer
-explosionPuddleRange: 128
-explosionShake: 2
-explosionShakeDuration: 180
+explosionPuddleRange: 64
+explosionShake: 1.5
+explosionShakeDuration: 90
 
 powerProduction: 8
 ambientSound: loopSmelter
