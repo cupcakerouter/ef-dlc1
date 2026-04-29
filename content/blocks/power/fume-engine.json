@@ -20,7 +20,7 @@ consumes: {
   ]
 }
 
-unstableSpeed: 0.0000001
+unstableSpeed: 0.0001
 explosionPuddleAmount: 18
 explosionPuddleLiquid: efdlc-neutralizer
 explosionPuddleRange: 32
