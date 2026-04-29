@@ -20,11 +20,11 @@ consumes: {
   ]
 }
 
-unstableSpeed: 0.5
-explosionPuddleAmount: 12
+unstableSpeed: 0.0000001
+explosionPuddleAmount: 18
 explosionPuddleLiquid: efdlc-neutralizer
-explosionPuddleRange: 64
-explosionShake: 1.5
+explosionPuddleRange: 32
+explosionShake: 1
 explosionShakeDuration: 90
 
 powerProduction: 8
