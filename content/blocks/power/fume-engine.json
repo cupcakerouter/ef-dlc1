@@ -1,5 +1,5 @@
 type: VariableReactor
-maxHeat: 8
+maxHeat: 12
 description: Creates power by heating carbon dioxide. Requires neutralizer to get rid of waste.
 size: 3
 category: power
