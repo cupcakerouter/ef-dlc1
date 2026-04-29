@@ -6,7 +6,6 @@ size: 3
 hasLiquids: true
 hasPower: true
 hasItems: true
-heatOutput: 8
 craftTime: 120
 squareSprite: false
 
@@ -37,6 +36,8 @@ consumes: {
 outputItems: [
 	efdlc-cupride/2
 ]
+
+heatOutput: 12
 sideHeat: [1]
 
 drawer: {
