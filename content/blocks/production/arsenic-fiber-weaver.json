@@ -11,7 +11,7 @@ hasLiquids: true
 craftTime: 120
 squareSprite: false
 
-ambientSound: loopCutter
+ambientSound: loopTech
 ambientSoundVolume: 0.2
 category: crafting
 
@@ -27,7 +27,7 @@ heatRequirement: 12
 consumes: {
 liquids: [
     efdlc-hydrogen/0.4
-    efdlc-neutralizer/0.5
+    efdlc-neutralizer/0.25
          ]
 items: [
     efdlc-arsenic/4
