@@ -1,4 +1,4 @@
-type: HeatConsumer
+type: HeatCrafter
 name: Cupride Chamber
 description: Weaves arsenic fiber using arsenic, cupride, hydrogen and neutralizer. Requires a significant amount of heating.
 size: 4
