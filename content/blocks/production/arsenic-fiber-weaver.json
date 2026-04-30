@@ -47,30 +47,50 @@ drawer: {
     {
       type: DrawRegion
       suffix: -bottom
-    },
-{
-type: DrawCrucibleFlame
-flameRad: 1.5
-circleStroke: 0
-particles: 15
-particleLife: 120
-particleRad: 16
-particleSize: 3
-} 
-    {
-type: DrawRegion
-suffix: -spinny
-rotateSpeed: 1
-    },
-    {
-type: DrawRegion
-suffix: -spinny
-rotateSpeed: -1
     }
+    {
+      type: DrawCrucibleFlame
+      flameRad: 1.5
+      circleStroke: 0
+      particles: 15
+      particleLife: 120
+      particleRad: 16
+      particleSize: 3
+    } 
+    {
+      type: DrawRegion
+      suffix: -spinny
+      rotateSpeed: 1
+    }
+    {
+      type: DrawRegion
+      suffix: -spinny
+      rotateSpeed: -1
+    }
+    {
+	  type: DrawGlowRegion
+	  suffix: -spinny-glow
+	  alpha: 1
+	  glowIntensity: 0.6
+	  color: FF6A00FF 
+	  glowScale: 0
+	  rotate: true
+	  rotateSpeed: 1
+	} 
+    {
+	  type: DrawGlowRegion
+	  suffix: -spinny-glow
+	  alpha: 1
+	  glowIntensity: 0.6
+	  color: FF6A00FF 
+	  glowScale: 0
+	  rotate: true
+	  rotateSpeed: -1
+	} 
     {
 	  type: DrawDefault
 	}
-   {
+    {
 	  type: DrawHeatInput
 	  suffix: -heat
 	} 
