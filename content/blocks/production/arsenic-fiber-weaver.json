@@ -50,7 +50,7 @@ drawer: {
     },
 {
 type: DrawCrucibleFlame
-flameRad: 1
+flameRad: 1.5
 circleStroke: 0
 particles: 15
 particleLife: 120
