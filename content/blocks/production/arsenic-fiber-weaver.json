@@ -72,7 +72,7 @@ drawer: {
 	  suffix: -spinny-glow
 	  alpha: 1
 	  glowIntensity: 0.1
-	  color: e9cbb5
+	  color: cd8958
 	  glowScale: 0
 	  rotate: true
 	  rotateSpeed: 1
@@ -83,7 +83,7 @@ drawer: {
 	  suffix: -spinny-glow
 	  alpha: 1
 	  glowIntensity: 0.1
-	  color: e9cbb5
+	  color: cd8958
 	  glowScale: 0
 	  rotate: true
 	  rotateSpeed: -1
