@@ -62,6 +62,11 @@ drawer: {
 type: DrawRegion
 suffix: -spinny
 rotateSpeed: 1
+    },
+    {
+type: DrawRegion
+suffix: -spinny
+rotateSpeed: -1
     }
     {
 	  type: DrawDefault
