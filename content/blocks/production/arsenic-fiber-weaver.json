@@ -1,0 +1,69 @@
+type: HeatConsumer
+name: Cupride Chamber
+description: Weaves arsenic fiber using arsenic, cupride, hydrogen and neutralizer. Requires a significant amount of heating.
+size: 4
+
+
+hasLiquids: false
+hasPower: true
+hasItems: true
+hasLiquids: true
+craftTime: 120
+squareSprite: false
+
+ambientSound: loopCutter
+ambientSoundVolume: 0.2
+category: crafting
+
+
+requirements: [
+	efdlc-scrap/250
+	efdlc-copper/150
+    efdlc-cupride/50
+]
+
+heatRequirement: 12
+
+consumes: {
+liquids: [
+    efdlc-hydrogen/0.4
+    efdlc-neutralizer/0.5
+         ]
+items: [
+    efdlc-arsenic/4
+    efdlc-cupride/1
+       ]
+}
+
+outputItem: arsenic-fiber/1
+
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    },
+    {
+    type: DrawCrucibleFlame
+    flameColor: f0af8dFF
+	particleRad: 14
+	particleLife: 320
+	fadeMargin: 3
+	rotateScl: 15
+	circleStroke: 0
+    }
+    {
+type: DrawRegion
+suffix: -spinny
+rotateSpeed: 1
+    }
+    {
+	  type: DrawDefault
+	}
+   {
+	  type: DrawHeatInput
+	  suffix: -heat
+	} 
+  ]
+} 
