@@ -76,6 +76,7 @@ drawer: {
 	  glowScale: 0
 	  rotate: true
 	  rotateSpeed: 1
+	  layer: 30
 	} 
     {
 	  type: DrawGlowRegion
@@ -86,6 +87,8 @@ drawer: {
 	  glowScale: 0
 	  rotate: true
 	  rotateSpeed: -1
+	  layer: 30
+
 	} 
     {
 	  type: DrawDefault
