@@ -7,12 +7,12 @@ squareSprite: false
 
 
 requirements: [
-  efdlc-scrap/30
-  efdlc-copper/20
+  efdlc-scrap/20
+  efdlc-copper/15
 ]
 
 
-pumpAmount: 0.0375
+pumpAmount: 0.075
 consumes: {
   power: 0.0833333333333333333333333333333333333333333333333
 }
