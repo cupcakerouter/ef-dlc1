@@ -52,7 +52,7 @@ drawer: {
 type: DrawCrucibleFlame
 flameRad: 2
 circleStroke: 0
-particles: 24
+particles: 16
 particleLife: 60
 particleRad: 24
 particleSize: 5
