@@ -48,6 +48,15 @@ drawer: {
       type: DrawRegion
       suffix: -bottom
     },
+{
+type: DrawCrucibleFlame
+flameRad: 1
+circleStroke: 0
+particles: 12
+particleLife: 60
+particleRad: 4
+particleSize: 2
+} 
     {
 type: DrawRegion
 suffix: -spinny
@@ -61,16 +70,6 @@ rotateSpeed: -1
     {
 	  type: DrawDefault
 	}
-    {
-    type: DrawCrucibleFlame
-    flameColor: f0af8d
-	particles: 25
-	particleRad: 14
-	particleLife: 90
-	fadeMargin: 3
-	rotateScl: 15
-	circleStroke: 0
-    }
    {
 	  type: DrawHeatInput
 	  suffix: -heat
