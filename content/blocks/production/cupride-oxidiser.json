@@ -4,7 +4,7 @@ description: Oxidizes copper using ozone. Uses slag for powering itself and neut
 size: 3
 
 hasLiquids: true
-hasPower: true
+hasPower: false
 hasItems: true
 craftTime: 120
 squareSprite: false
