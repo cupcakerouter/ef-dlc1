@@ -50,12 +50,12 @@ drawer: {
     },
 {
 type: DrawCrucibleFlame
-flameRad: 2
+flameRad: 1
 circleStroke: 0
-particles: 25
-particleLife: 60
+particles: 15
+particleLife: 120
 particleRad: 16
-particleSize: 5
+particleSize: 2
 } 
     {
 type: DrawRegion
