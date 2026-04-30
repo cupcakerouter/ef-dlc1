@@ -1,10 +1,9 @@
 type: HeatCrafter
-name: Cupride Chamber
+name: Arsenic Fiber Weaver
 description: Weaves arsenic fiber using arsenic, cupride, hydrogen and neutralizer. Requires a significant amount of heating.
 size: 4
 
-
-hasLiquids: false
+hasLiquids: true
 hasPower: true
 hasItems: true
 hasLiquids: true
@@ -16,6 +15,9 @@ ambientSoundVolume: 0.1
 category: crafting
 
 
+itemCapacity: 20
+liquidCapacity: 120
+
 requirements: [
 	efdlc-scrap/250
 	efdlc-copper/150
@@ -26,6 +28,7 @@ heatRequirement: 12
 maxEfficiency: 2
 
 consumes: {
+	power: 2.5
 liquids: [
     efdlc-hydrogen/0.4
     efdlc-neutralizer/0.25
