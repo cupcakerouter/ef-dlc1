@@ -10,4 +10,5 @@ cacheLayer: water
 albedo: 0.8
 supportsOverlay: true
 shallow: false
+isDeep: true
 liquidMultiplier: 1
