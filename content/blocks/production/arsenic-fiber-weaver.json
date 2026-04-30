@@ -35,7 +35,7 @@ items: [
        ]
 }
 
-outputItem: arsenic-fiber/1
+outputItem: efdlc-arsenic-fiber/1
 
 drawer: {
   type: DrawMulti
