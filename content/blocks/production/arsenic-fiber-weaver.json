@@ -1,6 +1,6 @@
 type: HeatCrafter
 name: Arsenic Fiber Weaver
-description: Weaves arsenic fiber using arsenic, cupride, hydrogen and neutralizer. Requires a significant amount of heating.
+description: Weaves arsenic fiber using arsenic, cupride, hydrogen and neutralizer. Requires a significant amount of heating. Increases production speed if given additional heat, up to twice the standard speed.
 size: 4
 
 hasLiquids: true
@@ -71,7 +71,7 @@ drawer: {
 	  type: DrawGlowRegion
 	  suffix: -spinny-glow
 	  alpha: 1
-	  glowIntensity: 0.6
+	  glowIntensity: 0.1
 	  color: FF6A00FF 
 	  glowScale: 0
 	  rotate: true
@@ -81,7 +81,7 @@ drawer: {
 	  type: DrawGlowRegion
 	  suffix: -spinny-glow
 	  alpha: 1
-	  glowIntensity: 0.6
+	  glowIntensity: 0.1
 	  color: FF6A00FF 
 	  glowScale: 0
 	  rotate: true
