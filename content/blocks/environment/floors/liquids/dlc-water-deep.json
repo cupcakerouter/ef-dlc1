@@ -8,7 +8,7 @@ liquidDrop: efdlc-pure-water
 isLiquid: true
 cacheLayer: water
 albedo: 0.8
-supportsOverlay: true
+supportsOverlay: false
 shallow: false
 isDeep: true
 liquidMultiplier: 1
