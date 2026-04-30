@@ -12,7 +12,7 @@ craftTime: 120
 squareSprite: false
 
 ambientSound: loopTech
-ambientSoundVolume: 0.2
+ambientSoundVolume: 0.1
 category: crafting
 
 
@@ -23,6 +23,7 @@ requirements: [
 ]
 
 heatRequirement: 12
+maxEfficiency: 2
 
 consumes: {
 liquids: [
@@ -47,8 +48,9 @@ drawer: {
     {
     type: DrawCrucibleFlame
     flameColor: f0af8dFF
+	particles: 25
 	particleRad: 14
-	particleLife: 320
+	particleLife: 90
 	fadeMargin: 3
 	rotateScl: 15
 	circleStroke: 0
