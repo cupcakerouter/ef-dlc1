@@ -55,7 +55,7 @@ circleStroke: 0
 particles: 15
 particleLife: 120
 particleRad: 16
-particleSize: 2
+particleSize: 3
 } 
     {
 type: DrawRegion
