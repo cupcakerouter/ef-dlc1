@@ -50,7 +50,7 @@ drawer: {
     },
     {
     type: DrawCrucibleFlame
-    flameColor: f0af8dFF
+    flameColor: f0af8d
 	particles: 25
 	particleRad: 14
 	particleLife: 90
