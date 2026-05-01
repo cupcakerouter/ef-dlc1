@@ -128,14 +128,3 @@ bullet: {
 }
 }
 ]
- research: {
-     parent: "a-e1-boat1",
-             objectives: [
-             h-b5-reconstructorN
-                 {
-                     type: "OnSector",
-                     preset: "a-a7-pink-lake"
-                 }
-             ]
- }
- researchCostMultiplier: 0
