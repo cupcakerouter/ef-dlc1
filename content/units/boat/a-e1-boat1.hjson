@@ -80,14 +80,3 @@ bullet: {
 }
 }
 ]
- research: {
-     parent: "h-a1-constructorM",
-             objectives: [
-             h-a5-constructorN
-                 {
-                     type: "OnSector",
-                     preset: "a-a7-pink-lake"
-                 }
-             ]
- }
- researchCostMultiplier: 0
