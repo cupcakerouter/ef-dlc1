@@ -15,7 +15,7 @@ requirements: [
 
 consumes: {
   liquids: [
- 	efdlc-carbon-dioxide/0.1
+ 	efdlc-carbon-dioxide/0.15
 	efdlc-neutralizer/0.1
   ]
 }
