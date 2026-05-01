@@ -1,0 +1,141 @@
+	"outlineColor": "36363c",
+    "description": "Small naval unit armed with 2 small machine guns and a large laser cannon."
+  "type": "naval",
+	"speed": 0.9,
+	"hitSize": 17,
+	"health": 1100,
+	"faceTarget": true,
+	"armor": 4,
+	"range": 125,
+	"rotateSpeed": 4,
+	"hovering": false,
+targetAir: true
+weapons: [
+{
+name: a-e1-boat2-gun
+x: 0
+y: -1
+mirror: false
+rotateSpeed: 3
+shoot: {
+type: ShootPattern
+shots: 1
+shotDelay: 1
+}
+top: true
+inaccuracy: 2
+rotate: true
+reload: 60
+recoil: 2
+shootSound: shootSmite
+ejectEffect: none
+bullet: {
+    type: LaserBulletType,
+    colours: d87fd5,
+    damage: 55,
+    length: 100
+    width: 3
+    sideWidth: 4
+    shootEffect: "shootSmall"
+    smokeEffect: "shootSmallSmoke"
+    hitEffect: pointHit
+    pierceCap: 5
+    pierce: true
+    pierceBuilding: true
+}
+},
+{
+name: a-e1-boat2-gunsmall
+x: 6
+y: -5
+mirror: true
+shoot: {
+type: ShootPattern
+shots: 1
+shotDelay: 1
+}
+top: true
+inaccuracy: 0
+rotate: true
+reload: 10
+recoil: 0
+shootSound: shoot
+ejectEffect: none
+bullet: {
+    type: BasicBulletType,
+    speed: 5
+    lifetime: 20
+    damage: 15
+    width: 8
+    height: 12
+    frontColor: b2afb3
+    backColor: d5d2d6
+    shootEffect: "shootSmall"
+    smokeEffect: "shootSmallSmoke"
+    collidesTiles: true
+        trailColor: d5d2d6
+        trailLength: 3.5
+        trailWidth: 2
+      despawnEffect: [
+        {
+          type: WaveEffect
+          sizeFrom: 0
+          sizeTo: 8
+          lifetime: 15
+          strokeFrom: 3
+          strokeTo: 0
+          colorFrom: d5d2d6
+          colorTo: d5d2d6
+        }
+      ]
+      hitEffect: [
+        {
+          type: ParticleEffect
+          particles: 8
+          line: true
+          lifetime: 25
+          length: 15
+          lenFrom: 2
+          lenTo: 0
+          strokeFrom: 2
+          strokeTo: 0
+          colorFrom: d5d2d6
+          colorTo: d5d2d6
+        },
+        {
+          type: WaveEffect
+          sizeFrom: 0
+          sizeTo: 8
+          lifetime: 15
+          strokeFrom: 3
+          strokeTo: 0
+          colorFrom: d5d2d6
+          colorTo: d5d2d6
+        },
+        {
+          type: particle
+          particles: 8
+          lifetime: 20
+          length: 20
+          strokeFrom: 6
+          strokeTo: 1
+          lenFrom: 12
+          lenTo: 1
+          colorFrom: a3a3a3
+          colorTo: a3a3a3
+        }
+      ]
+}
+}
+]
+ research: {
+     parent: "a-e1-boat1",
+             objectives: [
+             h-b5-reconstructorN
+                 {
+                     type: "OnSector",
+                     preset: "a-a7-pink-lake"
+                 }
+             ]
+ }
+ researchCostMultiplier: 0
