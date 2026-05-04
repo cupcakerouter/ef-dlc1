@@ -9,7 +9,7 @@ squareSprite: false
 requirements: [
   efdlc-scrap/150
   efdlc-copper/75
-  efdlc-arsenic-fiber/10
+  efdlc-cupride/15
 ]
 
 
