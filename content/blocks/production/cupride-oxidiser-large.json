@@ -1,10 +1,10 @@
 type: HeatProducer
-name: Cupride Chamber
+name: Large Cupride Chamber
 description: Oxidizes copper using ozone. Uses slag for powering itself and neutralizer to get rid of pollution. Outputs a decent amount of heat.
 size: 5
 
 hasLiquids: true
-hasPower: false
+hasPower: true
 hasItems: true
 craftTime: 120
 squareSprite: false
@@ -18,26 +18,30 @@ category: crafting
 requirements: [
 	efdlc-scrap/250
 	efdlc-copper/120
+	efdlc-cupride/150
+	efdlc-arsenic-fiber/25
 ]
 
 
 consumes: {
 	items: [
-   	efdlc-copper/1
+   	efdlc-copper/4
 	]
 	liquids: [
-		efdlc-ozone/0.2
-		efdlc-neutralizer/0.133333333333333333333
+		efdlc-ozone/0.4
+		efdlc-neutralizer/0.3
         efdlc-slag/0.1
 	]
 }
 
 
 outputItems: [
-	efdlc-cupride/2
+	efdlc-cupride/10
 ]
-
-heatOutput: 12
+outputLiquids: [
+    efdlc-hydrogen/0.5
+]
+heatOutput: 30
 sideHeat: [1]
 
 drawer: {
@@ -65,6 +69,14 @@ drawer: {
 	  suffix: -glow
 	  glowScale: 15
 	}
+{
+    {
+      type: DrawPlasma
+	  plasmas: 2
+	  plasma1: 9e318b
+	  plasma2: da75c9
+    }
+}
     {
 	  type: DrawHeatOutput
 	}
