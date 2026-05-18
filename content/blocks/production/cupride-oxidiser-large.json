@@ -68,8 +68,9 @@ drawer: {
 	  plasma1: 9e318b
 	  plasma2: da75c9
     }
-
-
+    {
+	  type: DrawHeatOutput
+	}
     {
 	  type: DrawRegion
 	  suffix: -top
