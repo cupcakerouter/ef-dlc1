@@ -59,12 +59,6 @@ drawer: {
       padding: 3
 	}
     {
-      type: DrawPlasma
-	  plasmas: 2
-	  plasma1: 9e318b
-	  plasma2: da75c9
-    }
-    {
 	  type: DrawDefault
 	}
    {
