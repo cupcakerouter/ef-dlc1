@@ -67,6 +67,8 @@ drawer: {
 	  plasmas: 2
 	  plasma1: 9e318b
 	  plasma2: da75c9
+		
+flameRadiusMag: 100
     }
 
     {
