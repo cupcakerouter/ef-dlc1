@@ -59,15 +59,23 @@ drawer: {
       padding: 3
 	}
     {
-	  type: DrawDefault
-	}
-
-    {
       type: DrawPlasma
 	  plasmas: 2
 	  plasma1: 9e318b
 	  plasma2: da75c9
     }
+    {
+	  type: DrawDefault
+	}
+   {
+      type: DrawGlowRegion
+      alpha: 1
+      glowIntensity: 0.6
+      color: FF40BFFF
+      suffix: -glow
+      glowScale: 15
+    }
+
     {
 	  type: DrawHeatOutput
 	}
