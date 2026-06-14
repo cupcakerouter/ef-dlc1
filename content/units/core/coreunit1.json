@@ -29,7 +29,7 @@ buildSpeed: 0.75
 buildBeamOffset: 5
 
 mineTier: 2
-mineSpeed: 5
+mineSpeed: 6
 mineRange: 60
 
 mineItems: [
