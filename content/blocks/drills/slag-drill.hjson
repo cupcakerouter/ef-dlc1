@@ -9,6 +9,7 @@ drillTime: 120,
 drawMineItem": true,
 liquidBoostIntensity: 1
 rotateSpeed: 4
+squareSprite: false
 consumes: {
        liquid: {
            liquid: efdlc-slag
