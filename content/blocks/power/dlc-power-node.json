@@ -23,6 +23,6 @@ consumes: {
 
 requirements: [
   efdlc-scrap/4
-  efdlc-copper/8
+  efdlc-copper/4
 ]
 
