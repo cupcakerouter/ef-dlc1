@@ -62,14 +62,14 @@ drawer: {
     {
 	  type: DrawDefault
 	}
-   {
-      type: DrawGlowRegion
-      alpha: 1
-      glowIntensity: 0.6
-      color: FF40BFFF
-      suffix: -glow
-      glowScale: 15
-    }
+##   {
+##      type: DrawGlowRegion
+##      alpha: 1
+##      glowIntensity: 0.6
+##      color: FF40BFFF
+##      suffix: -glow
+##      glowScale: 15
+##    }
     {
 	  type: DrawCrucibleFlame
 	  particleRad: 10
