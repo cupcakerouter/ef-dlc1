@@ -21,7 +21,7 @@ category: units
 plans: [
   {
     type: FactoryUnitPlan
-    unit: dlc-mabuz
+    unit: mabuz-dlc
     requirements: [
       efdlc-scrap/45
       efdlc-arsenic/30
