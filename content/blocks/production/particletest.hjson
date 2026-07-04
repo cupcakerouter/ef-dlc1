@@ -41,6 +41,15 @@ drawer: {
 
     {
       type: DrawDefault
+    },
+    {
+    type: particle
+    color: 80EAFFFF
+	particleRad: 6
+	particleLife: 240
+	fadeMargin: 1
+	rotateScl: 1
+	circleStroke: 0
     }
   ]
 }
