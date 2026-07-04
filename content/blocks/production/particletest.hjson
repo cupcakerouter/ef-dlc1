@@ -55,8 +55,7 @@ drawer: {
 }
 
 
-effectChance: 0.2
-craftEffect: {
+generateEffect: {
     type: RadialEffect
     layer: 118
     rotationSpacing: 60
@@ -76,4 +75,4 @@ craftEffect: {
       sizeInterp: pow2Out
       interp: pow2Out
       layer: 111
-    }
+   			 }
