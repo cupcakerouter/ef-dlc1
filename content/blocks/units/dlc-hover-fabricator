@@ -1,0 +1,49 @@
+type: UnitFactory
+size: 3
+health: 450
+configurable: false
+name: Hover Unit Fabricator
+description: Constructs tier 1 hover units.
+squareSprite: false
+hasPower: true
+hasItems: true
+hasLiquids: true
+
+
+requirements: [
+  dlc-scrap/180
+  dlc-copper/60
+  dlc-alluminum/120
+]
+category: units
+
+
+plans: [
+  {
+    type: FactoryUnitPlan
+    unit: dlc-mabuz
+    requirements: [
+      dlc-scrap/45
+      dlc-alluminum/30
+    ]
+    time: 2700
+  }
+]
+
+
+consumes: {
+  power: 1.3333333333333333333333333333333
+  liquids: [
+	dlc-dirty-water/0.1
+	dlc-neutralizer/0.05
+  ] 
+}
+
+
+
+research: core-dlc1
+researchCost: [
+	dlc-scrap/900
+  dlc-copper/300
+  dlc-alluminum/600
+]
