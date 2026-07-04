@@ -54,7 +54,7 @@ drawer: {
   ]
 }
 
-craftEffectRange: 1
+
 effectChance: 0.2
 craftEffect: {
     type: RadialEffect
