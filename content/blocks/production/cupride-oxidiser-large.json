@@ -70,7 +70,15 @@ drawer: {
       suffix: -glow
       glowScale: 15
     }
-
+    {
+	  type: DrawCrucibleFlame
+	  particleRad: 10
+	  flameRad: 3
+	  partcileSize: 4
+	  rotateScl: 2
+	  particles: 50
+	  particleLife: 120
+	}
     {
 	  type: DrawHeatOutput
 	}
