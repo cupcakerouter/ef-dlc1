@@ -5,13 +5,11 @@ size: 3
 category: power
 squareSprite: false
 
-
 requirements: [
   efdlc-scrap/150
   efdlc-copper/75
   efdlc-cupride/15
 ]
-
 
 consumes: {
   liquids: [
