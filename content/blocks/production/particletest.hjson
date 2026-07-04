@@ -76,3 +76,4 @@ craftEffect: {
       interp: pow2Out
       layer: 111
    			 }
+		   }
