@@ -73,7 +73,7 @@ drawer: {
     {
 	  type: DrawCrucibleFlame
 	  particleRad: 10
-	  flameRad: 3
+	  flameRad: 0
 	  partcileSize: 4
 	  rotateScl: 2
 	  particles: 50
