@@ -32,7 +32,7 @@ plans: [
 
 
 consumes: {
-  power: 1.3333333333333333333333333333333
+  power: 1.5
   liquids: [
 	efdlc-neutralizer/0.05
   ] 
