@@ -78,7 +78,6 @@ drawer: {
 	  rotateScl: 2
 	  particles: 50
 	  particleLife: 120
-
 	  circleStroke: 10
 	}
     {
