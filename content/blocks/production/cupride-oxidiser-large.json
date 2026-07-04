@@ -67,10 +67,10 @@ drawer: {
 	  type: DrawCrucibleFlame
 	  particleRad: 10
 	  flameRad: 0
-	  partcileSize: 4
+	  partcileSize: 5
 	  rotateScl: 2
 	  particles: 50
-	  particleLife: 120
+	  particleLife: 150
  	  color: #ff0000
 	}
     {
