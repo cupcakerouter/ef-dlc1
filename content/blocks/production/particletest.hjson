@@ -43,7 +43,7 @@ drawer: {
       type: DrawDefault
     },
     {
-    type: particle
+    type: drawParticles
     color: 80EAFFFF
 	particleRad: 6
 	particleLife: 240
