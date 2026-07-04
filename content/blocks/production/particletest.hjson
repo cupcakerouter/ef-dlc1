@@ -64,12 +64,12 @@ craftEffect: {
     effect: {
       particles: 1
       length: 90
-      lifetime: 400
+      lifetime: 240
       cone: 20
       baseRotation: 32
       useRotation: false 
       sizeFrom: 0
-      sizeTo: 12
+      sizeTo: 8
       colorFrom: e0e0e066
       colorTo: e0e0e000
       sizeInterp: pow2Out
