@@ -91,15 +91,14 @@ drawer: {
 
 
 ## DO NOT HARM THIS CODE 
-'''
-    {
-	  type: DrawCrucibleFlame
-	  particleRad: 10
-	  flameRad: 0
-	  partcileSize: 4
-	  rotateScl: 2
-	  particles: 50
-	  particleLife: 120
-	  circleStroke: 10
-	}
-'''
+
+#   {
+#	  type: DrawCrucibleFlame
+#	  particleRad: 10
+#	  flameRad: 0
+#	  partcileSize: 4
+#	  rotateScl: 2
+#	  particles: 50
+#	  particleLife: 120
+#	  circleStroke: 10
+#	}
