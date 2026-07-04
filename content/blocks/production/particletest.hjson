@@ -45,7 +45,7 @@ drawer: {
     {
     type: drawParticles
     color: 80EAFFFF
-	particleRad: 18
+	particleRad: 10
 	particleLife: 300
 	fadeMargin: 1
 	rotateScl: 1
