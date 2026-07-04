@@ -79,7 +79,7 @@ drawer: {
 	  particles: 50
 	  particleLife: 120
 
-	  circleRad: 4
+	  circleRad: 2
 	}
     {
 	  type: DrawHeatOutput
