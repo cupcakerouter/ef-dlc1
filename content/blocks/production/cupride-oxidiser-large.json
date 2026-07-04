@@ -70,8 +70,7 @@ drawer: {
 	  partcileSize: 5
 	  rotateScl: 2
 	  particles: 50
-	  particleLife: 150
- 	  color: #ff0000
+	  particleLife: 180
 	}
     {
 	  type: DrawHeatOutput
