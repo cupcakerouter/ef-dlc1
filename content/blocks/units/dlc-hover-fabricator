@@ -11,9 +11,9 @@ hasLiquids: true
 
 
 requirements: [
-  dlc-scrap/180
-  dlc-copper/60
-  dlc-alluminum/120
+  efdlc-scrap/180
+  efdlc-copper/60
+  efdlc-arsenic/120
 ]
 category: units
 
@@ -23,8 +23,8 @@ plans: [
     type: FactoryUnitPlan
     unit: dlc-mabuz
     requirements: [
-      dlc-scrap/45
-      dlc-alluminum/30
+      efdlc-scrap/45
+      efdlc-arsenic/30
     ]
     time: 2700
   }
@@ -34,8 +34,8 @@ plans: [
 consumes: {
   power: 1.3333333333333333333333333333333
   liquids: [
-	dlc-dirty-water/0.1
-	dlc-neutralizer/0.05
+	efdlc-dirty-water/0.1
+	efdlc-neutralizer/0.05
   ] 
 }
 
@@ -43,7 +43,7 @@ consumes: {
 
 research: core-dlc1
 researchCost: [
-	dlc-scrap/900
-  dlc-copper/300
-  dlc-alluminum/600
+  efdlc-scrap/900
+  efdlc-copper/300
+  efdlc-arsenic/600
 ]
