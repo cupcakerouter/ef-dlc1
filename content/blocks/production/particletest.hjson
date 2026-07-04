@@ -55,7 +55,7 @@ drawer: {
 }
 
 
-generateEffect: {
+craftEffect: {
     type: RadialEffect
     layer: 118
     rotationSpacing: 60
