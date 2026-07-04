@@ -34,7 +34,6 @@ plans: [
 consumes: {
   power: 1.3333333333333333333333333333333
   liquids: [
-	efdlc-pure-water/0.1
 	efdlc-neutralizer/0.05
   ] 
 }
