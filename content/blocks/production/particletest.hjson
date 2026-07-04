@@ -1,0 +1,46 @@
+type: GenericCrafter
+name: test
+description: Reading is an amazing skill of being able to read. Doing so helps you to comprehend things, such as understanding vocabulary such as "test".
+category: crafting
+size: 2
+rotate: false
+rotateDraw: false
+
+hasLiquids: true
+hasItems: false
+squareSprite: true
+hasPower: false
+
+itemCapacity: 0
+liquidCapacity: 50
+
+outputLiquids: [
+    efdlc-hydrogen/0.2
+]
+
+consumes: {
+	liquids: [
+        efdlc-pure-water/0.4
+    ]
+}
+craftTime: 60
+
+
+ambientSound: loopElectricHum
+ambientSoundVolume: 1
+
+
+requirements: [
+  efdlc-scrap/70
+]
+
+
+drawer: {
+  type: DrawMulti
+  drawers: [
+
+    {
+      type: DrawDefault
+    }
+  ]
+}
