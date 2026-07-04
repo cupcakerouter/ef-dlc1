@@ -67,26 +67,26 @@ engines: [
     x: 5.25
     y: -5.25
     radius: 1.7
-    rotation: 90
+    rotation: 270
   } 
   {
     x: -5.25
     y: -5.25
     radius: 1.7
-    rotation: 90
+    rotation: 270
   }
 
   {
     x: 5.25
     y: 3.75
     radius: 1.7
-    rotation: -90
+    rotation: 90
   }
   {
     x: -5.25
     y: 3.75
     radius: 1.7
-    rotation: -90
+    rotation: 90
   }
 ] 
 
