@@ -1,5 +1,5 @@
 type: GenericCrafter
-name: Neutralizer Infuser
+name: Neutralizer Mixer
 description: Cools down slag, mixes it with pure water and then combines it with fine arsenic power to create neutralizer. Requires a small amount of power.
 category: crafting
 size: 3
