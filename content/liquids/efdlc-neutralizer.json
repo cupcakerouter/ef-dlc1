@@ -1,6 +1,6 @@
 type: Liquid
 name: Neutralizer
-description: Extremely slow to change temperature. 
+description: A mixture that heats up very slowly. Can also absorb various waste products produced by some industrial processes.
 color: 2EE6D6FF
 
 explosiveness: 0.0
