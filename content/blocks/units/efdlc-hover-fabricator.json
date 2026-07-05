@@ -37,13 +37,3 @@ consumes: {
 	efdlc-neutralizer/0.05
   ] 
 }
-
-
-
-research: core-dlc1
-researchCost: [
-  efdlc-scrap/900
-  efdlc-copper/300
-  efdlc-arsenic/600
-]
-
