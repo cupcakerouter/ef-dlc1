@@ -11,7 +11,7 @@ hasLiquids: true
 
 
 requirements: [
-  efdlc-scrap/100
+  efdlc-scrap/75
   efdlc-copper/40
 ]
 
