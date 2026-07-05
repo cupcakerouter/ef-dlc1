@@ -24,7 +24,7 @@ plans: [
     unit: mabuz-dlc
     requirements: [
       efdlc-scrap/45
-      efdlc-arsenic/30
+      efdlc-arsenic/15
     ]
     time: 2700
   }
