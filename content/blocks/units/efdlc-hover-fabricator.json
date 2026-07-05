@@ -1,6 +1,6 @@
 type: UnitFactory
 size: 3
-health: 450
+health: 300
 configurable: false
 name: Hover Unit Fabricator
 description: Constructs tier 1 hover units.
