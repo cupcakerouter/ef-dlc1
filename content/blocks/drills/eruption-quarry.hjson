@@ -1,0 +1,70 @@
+type: BurstDrill
+name: Eruption Quarry
+size: 5
+category: production
+hasLiquids: true
+drillTime: 300
+drillHardnessMultiplier: 200
+hasPower: true
+tier: 4
+shake: 4
+itemCapacity: 50
+optionalBoostIntensity: 3
+details: Boost: 2×
+
+
+consumes: {
+	liquid: efdlc-neutralizer/4
+	power: 8
+	liquids: {
+		liquids: [
+			efdlc-ozone/1
+		] 
+		optional: true
+		booster: true
+	}
+}
+
+
+drillEffect: [
+  {
+    type: WaveEffect
+    sizeFrom: 0.1
+    sizeTo: 15
+    strokeFrom: 2
+    strokeTo: 0.1
+    colorFrom: 8f8d87
+    colorTo: 6b6a66
+    lifetime: 40
+  }
+  {
+  type: MineImpact
+  } 
+  {
+  type: MineImpactSteam
+  } 
+  {
+  type: DrillSteam
+  } 
+]
+
+
+requirements: [
+  efdlc-scrap/1
+]
+
+
+squareSprite: false
+
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix:-arrow
+    }
+    {
+      type: DrawDefault
+    }
+  ] 
+} 
