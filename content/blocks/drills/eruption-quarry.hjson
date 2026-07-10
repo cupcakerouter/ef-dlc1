@@ -3,23 +3,23 @@ name: Eruption Quarry
 size: 5
 category: production
 hasLiquids: true
-drillTime: 60
+drillTime: 120
 drillHardnessMultiplier: 200
 hasPower: true
 tier: 4
 shake: 4
 itemCapacity: 50
+liquidCapacity: 60
 optionalBoostIntensity: 3
-details: Boost: 2×
 arrows: 1
-arrowColor: FF0000
+arrowColor: d66363
 
 consumes: {
 	liquid: efdlc-neutralizer/4
 	power: 8
 	liquids: {
 		liquids: [
-			efdlc-ozone/1
+			efdlc-ozone/0.25
 		] 
 		optional: true
 		booster: true
@@ -31,12 +31,12 @@ drillEffect: [
   {
     type: WaveEffect
     sizeFrom: 0.1
-    sizeTo: 15
+    sizeTo: 40
     strokeFrom: 2
     strokeTo: 0.1
     colorFrom: 8f8d87
     colorTo: 6b6a66
-    lifetime: 40
+    lifetime: 60
   }
   {
   type: MineImpact
