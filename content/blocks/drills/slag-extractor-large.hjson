@@ -15,12 +15,12 @@ squareSprite: false
 
 consumes: {
     power: 3
-items: {
+items: [
 efdlc-arsenic/2
-}
-liquids: {
+]
+liquids: [
 efdlc-neutralizer/0.2
-}
+]
 }
 
 outputLiquid: efdlc-slag/0.5
