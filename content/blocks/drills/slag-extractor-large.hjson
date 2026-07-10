@@ -2,8 +2,7 @@ type: AttributeCrafter
 attribute: heat
 baseEfficiency: 0
 minEfficiency: 0.25
-boostScale: 0.25
-maxBoost: 2
+maxBoost: 1
 scaleLiquidConsumption: false
 
 displayEfficiency: true
@@ -16,7 +15,7 @@ liquidCapacity: 120
 squareSprite: false
 
 consumes: {
-    power: 3
+    power: 4
 items: [
 efdlc-arsenic/2
 ]
