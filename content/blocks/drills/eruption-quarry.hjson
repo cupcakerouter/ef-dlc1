@@ -3,7 +3,7 @@ name: Eruption Quarry
 size: 5
 category: production
 hasLiquids: true
-drillTime: 300
+drillTime: 60
 drillHardnessMultiplier: 200
 hasPower: true
 tier: 4
@@ -12,6 +12,7 @@ itemCapacity: 50
 optionalBoostIntensity: 3
 details: Boost: 2×
 arrows: 1
+arrowColor: FF0000
 
 consumes: {
 	liquid: efdlc-neutralizer/4
