@@ -28,7 +28,7 @@ craftTime: 60
 outputLiquid: efdlc-slag/0.5
 
 category: production
-ambientSound: loopCombustion
+ambientSound: loopDifferential
 ambientSoundVolume: 0.5
 
 requirements: [
