@@ -39,6 +39,16 @@ drillEffect: [
     lifetime: 60
   }
   {
+    type: WaveEffect
+    sizeFrom: 0.1
+    sizeTo: 10
+    strokeFrom: 2
+    strokeTo: 0.1
+    colorFrom: 8f8d87
+    colorTo: 6b6a66
+    lifetime: 30
+  }
+  {
   type: MineImpact
   } 
   {
