@@ -2,6 +2,7 @@ type: AttributeCrafter
 attribute: heat
 baseEfficiency: 0
 minEfficiency: 0.25
+efficiencyMultiplier: 0.5
 maxBoost: 1
 
 displayEfficiency: true
