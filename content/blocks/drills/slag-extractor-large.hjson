@@ -45,9 +45,6 @@ drawer: {
       type: DrawRegion
       suffix: -bottom
     }
-	{
-	  type: DrawDefault
-    }
     {  
       type: DrawLiquidRegion
       drawLiquid: efdlc-slag
@@ -55,17 +52,30 @@ drawer: {
       padding: 3
       alpha: 1
     },
+    {
+    type: drawParticles
+    color: 80EAFFFF
+	particleRad: 13
+	particleLife: 300
+	fadeMargin: 1
+	rotateScl: 0.5
+	circleStroke: 0
+    },
     {  
       type: DrawLiquidRegion
       drawLiquid: efdlc-neutralizer
       suffix: -fluid2
       padding: 3
       alpha: 1
-    }
+    },
+{
+type: DrawDefault
+}
     {
 	  type: DrawGlowRegion
 	  suffix: -glow
 	  glowScale: 10
-	  }
+	  },
+
   ]
 }
