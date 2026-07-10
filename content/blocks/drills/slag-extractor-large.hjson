@@ -30,8 +30,10 @@ ambientSound: hum
 ambientSoundVolume: 0.1
 
 requirements: [
-efdlc-scrap/25
-efdlc-copper/30
+efdlc-scrap/300
+efdlc-copper/100
+efdlc-cupride/25
+efdlc-arsenic-fiber/5
 ]
 
 drawer: {
