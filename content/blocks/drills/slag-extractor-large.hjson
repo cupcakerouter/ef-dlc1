@@ -28,8 +28,8 @@ craftTime: 60
 outputLiquid: efdlc-slag/0.5
 
 category: production
-ambientSound: hum
-ambientSoundVolume: 0.1
+ambientSound: loopCombustion
+ambientSoundVolume: 0.5
 
 requirements: [
 efdlc-scrap/300
