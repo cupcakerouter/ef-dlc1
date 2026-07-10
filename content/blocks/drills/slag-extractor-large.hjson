@@ -2,7 +2,7 @@ type: AttributeCrafter
 attribute: heat
 baseEfficiency: 0
 minEfficiency: 0.25
-displayEfficiencyScale: 0.5
+displayEfficiencyScale: 0.25
 maxBoost: 1
 scaleLiquidConsumption: false
 
@@ -25,6 +25,7 @@ efdlc-neutralizer/0.2
 ]
 }
 
+craftTime: 60
 outputLiquid: efdlc-slag/0.5
 
 category: production
