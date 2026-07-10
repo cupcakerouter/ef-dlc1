@@ -11,7 +11,7 @@ shake: 4
 itemCapacity: 50
 optionalBoostIntensity: 3
 details: Boost: 2×
-
+arrows: 1
 
 consumes: {
 	liquid: efdlc-neutralizer/4
