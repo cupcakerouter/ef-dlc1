@@ -16,7 +16,7 @@ arrowColor: d66363
 
 consumes: {
 	liquid: efdlc-neutralizer/0.75
-	power: 8
+	power: 6
 	liquids: {
 		liquids: [
 			efdlc-ozone/0.25
@@ -74,7 +74,10 @@ drillEffect: [
 
 
 requirements: [
-  efdlc-scrap/1
+  efdlc-scrap/250
+  efdlc-copper/150
+  efdlc-cupride/75
+  efdlc-arsenic-fiber/50
 ]
 
 
