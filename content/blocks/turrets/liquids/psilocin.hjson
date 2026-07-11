@@ -53,13 +53,18 @@ ammoTypes: {
       backColor: BEE1ADFF
       hitColor: BEE1ADFF
       missColor: BEE1ADFF
+
       despawnEffect: {
+lifetime: 30
 type: wave
 sizeFrom: 0
-sizeTo: 15
+strokeFrom: 2
+sizeTo: 20
+strokeTo: 0
 colorFrom: BEE1ADFF
 colorTo: BEE1ADFF
 }
+
       collidesTeam: false
       hitSound: none
       despawnSound: none
