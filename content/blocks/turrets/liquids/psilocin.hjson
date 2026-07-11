@@ -59,8 +59,8 @@ lifetime: 30
 type: wave
 sizeFrom: 0
 lenFrom: 1
-sizeTo: 20
-lenTo: 0
+sizeTo: 0
+lenTo: 15
 colorFrom: BEE1ADFF
 colorTo: BEE1AD00
 }
