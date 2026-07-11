@@ -61,7 +61,7 @@ drillEffect: [
     type: RadialEffect
     layer: 118
     rotationSpacing: 60
-    amount: 10
+    amount: 16
     lengthOffset: 6
     effect: {
       particles: 1
@@ -71,7 +71,7 @@ drillEffect: [
       baseRotation: 32
       useRotation: false 
       sizeFrom: 0
-      sizeTo: 6
+      sizeTo: 5
       colorFrom: e0e0e066
       colorTo: e0e0e000
       sizeInterp: pow2Out
