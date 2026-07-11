@@ -15,7 +15,7 @@ arrows: 1
 arrowColor: d66363
 
 consumes: {
-	liquid: efdlc-neutralizer/4
+	liquid: efdlc-neutralizer/0.75
 	power: 8
 	liquids: {
 		liquids: [
