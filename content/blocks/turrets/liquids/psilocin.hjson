@@ -62,7 +62,7 @@ lenFrom: 1
 sizeTo: 20
 lenTo: 0
 colorFrom: BEE1ADFF
-colorTo: BEE1ADFF
+colorTo: BEE1AD00
 }
 
       collidesTeam: false
