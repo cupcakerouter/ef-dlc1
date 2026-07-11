@@ -36,7 +36,7 @@ shootY: 6
 
 ammoPerShot: 3
 ammoTypes: {
-  efdlc-copper: {
+  efdlc-cupride: {
       type: BasicBulletType
       width: 4
       damage: 150
@@ -44,15 +44,15 @@ ammoTypes: {
       speed: 10
       recoil: 5
       smokeEffect: shootSmokeSquare
-      trailColor: F7EE8AFF
+      trailColor: BEE1ADFF
       trailWidth: 5
       trailLength: 10
       trailParam: 1.8
       trailInterval: 2
       trailEffect: missileTrail
       backColor: CE7B5BFF
-      hitColor: F7EE8AFF
-      missColor: F7EE8AFF
+      hitColor: BEE1ADFF
+      missColor: BEE1ADFF
       collidesTeam: false
       hitSound: none
       despawnSound: none
@@ -80,20 +80,20 @@ ammoTypes: {
         pierceCap: 3
         damage: 32
         despawnSound: dullExplosion
-        trailColor: F7EE8AFF
+        trailColor: BEE1ADFF
         trailWidth: 5
         trailLength: 10
         trailParam: 1.8
         trailInterval: 2
         trailEffect: missileTrail
-        backColor: CE7B5BFF
+        backColor: BEE1ADFF
       }
       hitEffect: {
         type: ExplosionEffect
         lifetime: 30
         waveStroke: 1
-        waveColor: F7EE8AFF
-        sparkColor: F7EE8AFF
+        waveColor: BEE1ADFF
+        sparkColor: BEE1ADFF
         waveRad: 3
         smokeSize: 0
         smokeSizeBase: 0
