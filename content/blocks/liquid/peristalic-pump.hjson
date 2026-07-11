@@ -8,6 +8,7 @@ liquidCapacity: 180
 
 requirements: [
   efdlc-copper/25
+  efdlc-arsenic/50
   efdlc-cupride/50
 ]
 
