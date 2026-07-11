@@ -50,9 +50,16 @@ ammoTypes: {
       trailParam: 1.8
       trailInterval: 2
       trailEffect: missileTrail
-      backColor: CE7B5BFF
+      backColor: BEE1ADFF
       hitColor: BEE1ADFF
       missColor: BEE1ADFF
+      despawnEffect: {
+type: wave
+sizeFrom: 0
+sizeTo: 15
+colorFrom: BEE1ADFF
+colorTo: BEE1ADFF
+}
       collidesTeam: false
       hitSound: none
       despawnSound: none
