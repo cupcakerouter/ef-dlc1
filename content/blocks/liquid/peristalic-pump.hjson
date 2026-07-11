@@ -12,10 +12,10 @@ requirements: [
 ]
 
 
-pumpAmount: 0.5
+pumpAmount: 0.2
 consumes: {
   power: 2
   items: [
-    efdlc-arsenic/1
+    efdlc-arsenic/2
     ]
 }
