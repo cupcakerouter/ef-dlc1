@@ -40,8 +40,8 @@ ammoTypes: {
       type: BasicBulletType
       width: 4
       damage: 150
-      lifetime: 8
-      speed: 10
+      lifetime: 12
+      speed: 8
       recoil: 5
       smokeEffect: shootSmokeSquare
       trailColor: BEE1ADFF
@@ -54,6 +54,11 @@ ammoTypes: {
       hitColor: BEE1ADFF
       missColor: BEE1ADFF
 
+pierce: true
+pierceBuilding: false
+pierceCap: 10
+pierceDamageFactor: 5
+
       despawnEffect: {
 
     type: WaveEffect
@@ -64,7 +69,6 @@ ammoTypes: {
     colorFrom: BEE1ADFF
     colorTo: BEE1AD00
     lifetime: 30
-    interp: pow3Out
 
 }
 
