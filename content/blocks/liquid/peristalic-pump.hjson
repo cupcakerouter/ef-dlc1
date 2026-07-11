@@ -4,7 +4,7 @@ description: Uses arsenic and power to pump large volumes of fluids.
 size: 3
 category: liquid
 squareSprite: false
-
+liquidCapacity: 180
 
 requirements: [
   efdlc-copper/25
