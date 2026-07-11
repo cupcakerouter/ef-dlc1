@@ -64,7 +64,7 @@ ammoTypes: {
     colorFrom: BEE1ADFF
     colorTo: BEE1AD00
     lifetime: 30
-    interp: pow3In
+    interp: pow3Out
 
 }
 
