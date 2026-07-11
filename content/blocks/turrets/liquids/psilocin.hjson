@@ -55,14 +55,16 @@ ammoTypes: {
       missColor: BEE1ADFF
 
       despawnEffect: {
-lifetime: 30
-type: wave
-sizeFrom: 0
-lenFrom: 1
-sizeTo: 0
-lenTo: 15
-colorFrom: BEE1ADFF
-colorTo: BEE1AD00
+
+    type: WaveEffect
+    sizeFrom: 0.1
+    sizeTo: 30
+    strokeFrom: 2
+    strokeTo: 0.1
+    colorFrom: BEE1ADFF
+    colorTo: BEE1AD00
+    lifetime: 50
+
 }
 
       collidesTeam: false
