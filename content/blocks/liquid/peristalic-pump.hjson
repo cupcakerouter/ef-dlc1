@@ -11,7 +11,9 @@ requirements: [
   efdlc-arsenic/50
   efdlc-cupride/50
 ]
-
+craftEffect: {
+type: drillSteam
+}
 
 pumpAmount: 0.2
 consumes: {
