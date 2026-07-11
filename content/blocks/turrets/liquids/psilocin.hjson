@@ -22,7 +22,7 @@ consumes: {
   power: 0.5
   liquid: efdlc-hydrogen/0.2
 } 
-
+liquidCapacity: 50
 
 recoil: 3
 outlineColor: 181425FF
@@ -30,7 +30,7 @@ targetAir: true
 targetGround: true
 rotateSpeed: 2
 reload: 120
-range: 192
+range: 128
 shootY: 4
 
 
