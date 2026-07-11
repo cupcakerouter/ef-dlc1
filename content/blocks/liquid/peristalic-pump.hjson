@@ -16,6 +16,6 @@ pumpAmount: 0.5
 consumes: {
   power: 2
   items: [
-    arsenic/1
+    efdlc-arsenic/1
     ]
 }
