@@ -13,13 +13,14 @@ hasLiquids: true
 requirements: [
   efdlc-scrap/75
   efdlc-copper/40
+efdlc-cupride/15
 ]
 
 
 category: turret
 consumes: {
   power: 0.5
-  liquid: efdlc-hydrogen/0.1
+  liquid: efdlc-hydrogen/0.2
 } 
 
 
@@ -28,19 +29,19 @@ outlineColor: 181425FF
 targetAir: true
 targetGround: true
 rotateSpeed: 2
-reload: 60
+reload: 120
 range: 192
 shootY: 6
 
 
-ammoPerShot: 1
+ammoPerShot: 3
 ammoTypes: {
   efdlc-copper: {
       type: BasicBulletType
       width: 4
-      damage: 240
+      damage: 150
       lifetime: 8
-      speed: 16
+      speed: 10
       recoil: 5
       smokeEffect: shootSmokeSquare
       trailColor: F7EE8AFF
