@@ -63,7 +63,8 @@ ammoTypes: {
     strokeTo: 0.1
     colorFrom: BEE1ADFF
     colorTo: BEE1AD00
-    lifetime: 50
+    lifetime: 30
+    interp: pow3In
 
 }
 
