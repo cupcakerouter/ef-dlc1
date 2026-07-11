@@ -11,10 +11,15 @@ requirements: [
   efdlc-arsenic/50
   efdlc-cupride/50
 ]
+
+drawers: [
+{
+type: DrawDefault
+}
 craftEffect: {
 type: drillSteam
 }
-
+]
 pumpAmount: 0.2
 consumes: {
   power: 2
