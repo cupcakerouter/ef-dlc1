@@ -58,9 +58,9 @@ ammoTypes: {
 lifetime: 30
 type: wave
 sizeFrom: 0
-strokeFrom: 2
+lenFrom: 1
 sizeTo: 20
-strokeTo: 0
+lenTo: 0
 colorFrom: BEE1ADFF
 colorTo: BEE1ADFF
 }
