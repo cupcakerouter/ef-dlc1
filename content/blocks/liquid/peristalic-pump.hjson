@@ -1,0 +1,21 @@
+type: Pump
+name: Peristalic Pump
+description: Uses arsenic and power to pump large volumes of fluids. 
+size: 3
+category: liquid
+squareSprite: false
+
+
+requirements: [
+  efdlc-copper/25
+  efdlc-cupride/50
+]
+
+
+pumpAmount: 0.5
+consumes: {
+  power: 2
+  items: [
+    arsenic/1
+    ]
+}
