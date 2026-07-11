@@ -56,8 +56,7 @@ ammoTypes: {
 
 pierce: true
 pierceBuilding: false
-pierceCap: 10
-pierceDamageFactor: 5
+pierceCap: 2
 
       despawnEffect: {
 
