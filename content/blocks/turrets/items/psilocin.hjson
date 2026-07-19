@@ -1,0 +1,132 @@
+name: Psilocin
+
+type: ItemTurret
+size: 2
+squareSprite: false
+health: 700
+shootSound: shootArtillerySapBig
+hasItems: true
+hasPower: true
+hasLiquids: true
+
+
+requirements: [
+  efdlc-scrap/75
+  efdlc-copper/40
+efdlc-cupride/15
+]
+
+
+category: turret
+consumes: {
+  power: 0.5
+  liquid: efdlc-hydrogen/0.2
+} 
+liquidCapacity: 50
+
+recoil: 3
+outlineColor: 181425FF
+targetAir: true
+targetGround: true
+rotateSpeed: 2
+reload: 120
+range: 128
+shootY: 4
+
+
+ammoPerShot: 3
+ammoTypes: {
+  efdlc-cupride: {
+      type: BasicBulletType
+      width: 4
+      damage: 150
+      lifetime: 8
+      speed: 8
+      recoil: 5
+      smokeEffect: shootSmokeSquare
+      trailColor: BEE1ADFF
+      trailWidth: 5
+      trailLength: 10
+      trailParam: 1.8
+      trailInterval: 2
+      trailEffect: missileTrail
+      backColor: BEE1ADFF
+      hitColor: BEE1ADFF
+      missColor: BEE1ADFF
+
+pierce: true
+pierceBuilding: false
+pierceCap: 2
+
+      despawnEffect: {
+
+    type: WaveEffect
+    sizeFrom: 0.1
+    sizeTo: 30
+    strokeFrom: 2
+    strokeTo: 0.1
+    colorFrom: BEE1ADFF
+    colorTo: BEE1AD00
+    lifetime: 30
+
+}
+
+      collidesTeam: false
+      hitSound: none
+      despawnSound: none
+      homingPower: 0.05
+      weaveMag: 1
+      weaveScale: 8
+      fragOnHit: true
+      fragBullets: 5
+      fragRandomSpread: 0
+      fragVelocityMin: 0.2
+      fragVelocityMax: 0.5
+      fragSpread: 10
+      fragAngle: 0
+      fragOnAbsorb: true
+      fragHomingDelay: 0
+      fragHomingPower: 0.1
+      fragBullet: {
+        type: BasicBulletType
+        speed: 8
+        lifetime: 20
+        width: 6
+        height: 6
+        pierce: true
+        pierceBuilding: true
+        pierceCap: 2
+        damage: 42
+        despawnSound: dullExplosion
+        trailColor: BEE1ADFF
+        trailWidth: 3
+        trailLength: 8
+        trailParam: 1.8
+        trailInterval: 2
+        trailEffect: missileTrail
+        backColor: BEE1ADFF
+      }
+      hitEffect: {
+        type: ExplosionEffect
+        lifetime: 30
+        waveStroke: 1
+        waveColor: BEE1ADFF
+        sparkColor: BEE1ADFF
+        waveRad: 3
+        smokeSize: 0
+        smokeSizeBase: 0
+        sparks: 6
+        sparkRad: 18
+        sparkLen: 1.5
+        sparkStroke: 1.2
+      }
+
+  }
+} 
+
+
+drawer: {
+  type: DrawTurret
+  basePrefix: blehhhhious-
+}
+
