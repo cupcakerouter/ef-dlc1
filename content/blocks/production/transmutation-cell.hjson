@@ -9,9 +9,7 @@ squareSprite: false
 consumes: {
 	liquids: [
     efdlc-hydrogen/1
-    efdlc-hydrogen/1
-  efdlc-hydrogen/0
-  efdlc-hydrogen/0
+
 	] 
 	power: 1
 }
