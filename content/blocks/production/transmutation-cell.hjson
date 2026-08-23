@@ -1,0 +1,106 @@
+type: GenericCrafter
+name: Experimental Transmutation Cell
+description: "Evil testing block (dont use please)"
+size: 2
+craftTime: 60
+squareSprite: false
+
+
+consumes: {
+	liquids: [
+    efdlc-hydrogen/1
+  efdlc-hydrogen/0
+  efdlc-hydrogen/0
+	] 
+	power: 1
+}
+
+
+hasLiquids: true
+hasPower: true
+dumpExtraLiquid: true
+rotate: false
+
+
+ambientSound: loopExtract
+ambientSoundVolume: 0.09
+
+
+outputLiquids: [
+	efdlc-ozone/1
+	efdlc-ozone/0
+	efdlc-ozone/0
+]
+
+
+category: crafting
+
+
+requirements: [
+efdlc-scrap/100
+]
+
+
+liquidCapacity: 60
+liquidOutputDirections: [2,0,1,3]
+
+
+
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+   	  type: DrawDefault
+    } 
+  ]
+} 
+
+
+craftEffect: [
+  {
+    type: RadialEffect
+    rotationOffset: 31.6
+    rotationSpacing: -63.2
+    amount: 2
+    lengthOffset: 7.6321
+    layer: 110
+    effect: {
+      type: ParticleEffect
+      particles: 1
+      lifetime: 300
+      sizeFrom: 1
+      baseRotation: 0
+      sizeTo: 3
+      colorFrom: FFFF9980
+      colorTo: FFFF9900
+      length: 16
+      baseLength: 0
+      cone: 30
+      interp: swing 
+	  sizeInterp: pow3In
+	  useRotation: false
+    } 
+  }
+  {
+    type: RadialEffect
+    rotationOffset: 211.6
+    rotationSpacing: -63.2
+    amount: 2
+    lengthOffset: 7.6321
+    layer: 110
+    effect: {
+      type: ParticleEffect
+      particles: 1
+      lifetime: 300
+      sizeFrom: 1
+      baseRotation: 180
+      sizeTo: 3
+      colorFrom: FBE6FF80
+      colorTo: FBE6FF00
+      length: 16
+      baseLength: 0
+      cone: 30
+      interp: swing 
+	  sizeInterp: pow3In
+	  useRotation: false
+    } 
