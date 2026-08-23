@@ -41,7 +41,7 @@ efdlc-scrap/100
 ]
 
 
-liquidCapacity: 60
+liquidCapacity: 1000
 liquidOutputDirections: [3,1,2,0]
 
 
