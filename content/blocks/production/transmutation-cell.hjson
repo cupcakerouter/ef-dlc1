@@ -1,7 +1,7 @@
 type: GenericCrafter
 name: Experimental Transmutation Cell
 description: "Evil testing block (dont use please)"
-size: 2
+size: 1
 craftTime: 60
 squareSprite: false
 
