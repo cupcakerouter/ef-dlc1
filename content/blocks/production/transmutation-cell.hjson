@@ -24,10 +24,10 @@ ambientSoundVolume: 0.09
 
 
 outputLiquids: [
-			efdlc-ozone/1
+			efdlc-ozone/0.5
+            efdlc-ozone/0.5
 	efdlc-hydrogen/0		
 	efdlc-hydrogen/0
-    efdlc-hydrogen/0
 ]
 
 
