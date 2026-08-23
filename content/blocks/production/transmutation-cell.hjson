@@ -9,6 +9,7 @@ squareSprite: false
 consumes: {
 	liquids: [
     efdlc-hydrogen/1
+    efdlc-hydrogen/1
   efdlc-hydrogen/0
   efdlc-hydrogen/0
 	] 
@@ -27,6 +28,7 @@ ambientSoundVolume: 0.09
 
 
 outputLiquids: [
+			efdlc-ozone/1
 			efdlc-ozone/1
 	efdlc-ozone/0
 	efdlc-ozone/0
