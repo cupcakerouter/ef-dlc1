@@ -104,4 +104,5 @@ craftEffect: [
 	  sizeInterp: pow3In
 	  useRotation: false
     } 
+}
 ]
