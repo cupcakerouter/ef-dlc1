@@ -15,9 +15,9 @@ effect:{
             sizeInterp: slope
             length: 45
             baseLength: 4
-            sizeFrom: 4
-            sizeTo: 8
-            colorFrom: fbad73df
+            sizeFrom: 3
+            sizeTo: 6
+            colorFrom: fbad7380
             colorTo: fbad7300
             layer: 61.8
             cone: 45
@@ -29,9 +29,9 @@ effect:{
             sizeInterp: slope
             length: 45
             baseLength: 4
-            sizeFrom: 4
-            sizeTo: 8
-            colorFrom: fbad73df
+            sizeFrom: 3
+            sizeTo: 6
+            colorFrom: fbad7380
             colorTo: fbad7300
             layer: 61.9
             cone: 35
