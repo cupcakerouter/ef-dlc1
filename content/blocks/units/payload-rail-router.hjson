@@ -1,0 +1,11 @@
+type: PayloadRouter
+description: Splits small payloads into three directions equally.
+category: units
+health: 150
+size: 2
+
+requirements: [
+  efdlc-scrap/30
+  efdlc-copper/20
+]
+payloadLimit: 1
