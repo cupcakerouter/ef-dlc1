@@ -1,0 +1,16 @@
+type: Liquid
+name: Natural Gas
+description: "Work in progress. Will be used in power generation + refinement."
+color: fbad73df
+
+explosiveness: 0.8
+flammability: 0.3
+heatCapacity: 0.7
+viscosity: 0.3
+temperature: 0.4
+boilPoint: -4
+gasColor: fbad73df
+gas: true
+blockReactive: false
+
+hiddenOnPlanets: [serpulo, erekir]
