@@ -1,7 +1,7 @@
 type: PayloadConveyor
 description: Moves small payloads. Only capable of transporting 1-tile large buildings.
 category: units
-health: 150
+health: 100
 size: 2
 
 requirements: [
