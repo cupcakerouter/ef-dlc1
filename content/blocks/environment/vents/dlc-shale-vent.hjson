@@ -11,9 +11,9 @@ effect:{
     effects: [
         {
             type: ParticleEffect
-            lifetime: 180
+            lifetime: 300
             sizeInterp: slope
-            length: 45
+            length: 40
             baseLength: 4
             sizeFrom: 3
             sizeTo: 6
@@ -25,16 +25,16 @@ effect:{
         }
         {
             type: ParticleEffect
-            lifetime: 140
+            lifetime: 240
             sizeInterp: slope
-            length: 45
+            length: 60
             baseLength: 4
             sizeFrom: 3
             sizeTo: 6
             colorFrom: fbad7380
             colorTo: fbad7300
             layer: 61.9
-            cone: 35
+            cone: 30
             baseRotation: 30
         }
     ]
