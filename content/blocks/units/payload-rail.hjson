@@ -1,5 +1,5 @@
 type: PayloadConveyor
-description: Moves payloads.
+description: Moves small payloads. Only capable of transporting 1-tile large buildings.
 category: units
 health: 150
 size: 2
@@ -8,4 +8,4 @@ requirements: [
   efdlc-scrap/10
   efdlc-copper/15
 ]
-payloadLimit: 2
+payloadLimit: 1
