@@ -5,7 +5,7 @@ attributes: {
    natural-gas: 1
 }
 
-effectSpacing: 5
+effectSpacing: 120
 effect:{
     type: MultiEffect
     effects: [
