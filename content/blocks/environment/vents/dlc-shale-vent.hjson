@@ -5,7 +5,7 @@ attributes: {
    natural-gas: 1
 }
 
-effectSpacing: 30
+effectSpacing: 60
 effect:{
     type: MultiEffect
     effects: [
@@ -15,7 +15,7 @@ effect:{
             sizeInterp: slope
             length: 40
             baseLength: 4
-            sizeFrom: 3
+            sizeFrom: 2
             sizeTo: 6
             colorFrom: fbad7380
             colorTo: fbad7300
@@ -29,7 +29,7 @@ effect:{
             sizeInterp: slope
             length: 60
             baseLength: 4
-            sizeFrom: 3
+            sizeFrom: 1
             sizeTo: 6
             colorFrom: fbad7380
             colorTo: fbad7300
