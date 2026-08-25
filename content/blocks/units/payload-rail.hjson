@@ -1,3 +1,11 @@
-type: payloadConveyor
-health: 100
-description: move payload 
+type: PayloadConveyor
+description: Moves payloads.
+category: units
+health: 150
+size: 2
+
+requirements: [
+  efdlc-scrap/10
+  efdlc-copper/15
+]
+payloadLimit: 2
