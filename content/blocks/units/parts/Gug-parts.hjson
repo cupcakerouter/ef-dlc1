@@ -1,0 +1,12 @@
+type: Wall
+name: Gug parts
+description: What is this, some kind of part used to construct gug???
+size: 1
+customShadow: true
+placeablePlayer: false
+
+requirements: [
+  efdlc-scrap/30
+  efdlc-copper/15
+  efdlc-arsenic/10
+]
