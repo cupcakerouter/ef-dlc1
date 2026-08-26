@@ -1,0 +1,39 @@
+type: UnitFactory
+size: 3
+health: 300
+configurable: false
+name: Naval Unit Fabricator
+description: Constructs tier 1 naval units.
+squareSprite: false
+hasPower: true
+hasItems: true
+hasLiquids: true
+
+
+requirements: [
+  efdlc-scrap/150
+  efdlc-copper/75
+  efdlc-arsenic/90
+]
+category: units
+
+plans: [
+  {
+    type: FactoryUnitPlan
+    unit: dlc-boat1
+    requirements: [
+      efdlc-scrap/60
+      efdlc-copper/10
+      efdlc-arsenic/30
+    ]
+    time: 3000
+  }
+]
+
+
+consumes: {
+  power: 2
+  liquids: [
+	efdlc-neutralizer/0.05
+  ] 
+}
