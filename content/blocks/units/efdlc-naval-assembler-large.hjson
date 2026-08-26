@@ -1,0 +1,43 @@
+type: UnitAssembler
+name: Advanced Hover Unit Constructor
+description: Creates naval units using payloads.
+size: 6
+category: units
+
+## ADD DRONE LATER!!!
+## droneType: 
+
+hasPower: true
+hasLiquids: true
+
+
+requirements: [
+  efdlc-scrap/350
+  efdlc-copper/200
+  efdlc-arsenic/250
+  efdlc-cupride/75
+
+]
+
+
+plans: [
+  {
+    type: AssemblerUnitPlan
+    unit: minke
+    requirements: [
+    ef-dlc-dlc-scrap-wall/6
+    ef-dlc-boat1-dlc/2
+    ]
+    time: 3600
+  }
+]
+
+
+squareSprite: false
+consumes: {
+  liquids: [
+    efdlc-neutralizer/0.4
+  ]
+  power: 6
+}
+areaSize: 12
