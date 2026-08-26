@@ -1,0 +1,35 @@
+type: Reconstructor
+size: 3
+health: 650
+configurable: false
+name: Gugly
+description: Gugly.
+squareSprite: false
+hasPower: true
+hasItems: true
+hasLiquids: true
+
+
+requirements: [
+  efdlc-copper/5
+]
+constructTime: 300
+category: units
+
+
+upgrades: [
+    [ef-dlc-gug-parts, efdlc-mabuz] 
+]
+  
+  
+consumes: {
+  power: 1
+  liquids: [
+	efdlc-ozone/0.1
+  ]
+  items: [
+  efdlc-copper/7
+  ]
+}
+
+
