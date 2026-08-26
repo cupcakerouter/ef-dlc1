@@ -11,7 +11,7 @@ minEfficiency: 8
 squareSprite: false
 category: production
 hasLiquids: true
-hasPower: true
+hasPower: false
 
 craftTime: 60
 consumes: {
