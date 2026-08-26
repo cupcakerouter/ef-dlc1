@@ -22,7 +22,7 @@ buildSpeed: 1
 
 
 filter: [
-  ef-dlc-dlc-scrap-wall-small
+  ef-dlc1-dlc-scrap-wall-small
 ]
 
 squareSprite: false
