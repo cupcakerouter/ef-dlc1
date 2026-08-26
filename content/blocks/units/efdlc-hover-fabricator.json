@@ -11,9 +11,9 @@ hasLiquids: true
 
 
 requirements: [
-  efdlc-scrap/180
-  efdlc-copper/60
-  efdlc-arsenic/120
+  efdlc-scrap/120
+  efdlc-copper/50
+  efdlc-arsenic/90
 ]
 category: units
 
