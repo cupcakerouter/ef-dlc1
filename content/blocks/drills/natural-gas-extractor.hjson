@@ -11,6 +11,7 @@ category: production
 hasLiquids: true
 hasPower: true
 
+productionTime: 60
 
 outputLiquid: efdlc-natural-gas/0.016666666666666666666
 
