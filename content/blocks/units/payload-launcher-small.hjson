@@ -13,8 +13,8 @@ requirements: [
 ]
 
 
-reload: 40
-chargeTime: 32
+reload: 30
+chargeTime: 42
 range: 120
 maxPayloadSize: 1
 size: 2
