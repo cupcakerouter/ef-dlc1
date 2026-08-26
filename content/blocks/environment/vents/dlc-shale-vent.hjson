@@ -2,7 +2,7 @@ type: SteamVent
 blendGroup: dlc-shale-floor
 parent: dlc-shale-floor
 attributes: {
-   natural-gas: 0.1
+   natural-gas: 0.111111111111111111111111111
 }
 
 effectSpacing: 60
