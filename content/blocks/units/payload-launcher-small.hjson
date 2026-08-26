@@ -41,12 +41,12 @@ smokeEffect: [
     	particles: 10
     	lifetime: 45
     	layer: 100.2
-    	cone: 60
-    	length: 15
+    	cone: 90
+    	length: 10
     	interp:pow3Out
     	sizeFrom: 1
     	sizeTo: 3
-    	colorFrom: D6AF8DCC
+    	colorFrom: D6AF8Dff
     	colorTo: D6AF8D00
       }
 ]
