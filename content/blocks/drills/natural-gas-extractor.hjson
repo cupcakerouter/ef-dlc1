@@ -5,6 +5,7 @@ size: 3
 attribute: natural-gas
 displayEfficiencyScale: 0.011111111111
 displayEfficiency: false
+baseEfficiency: 0
 minEfficiency: 8
 squareSprite: false
 category: production
