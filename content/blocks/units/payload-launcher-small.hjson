@@ -1,0 +1,20 @@
+type: PayloadMassDriver
+description: Shoots small payloads.
+
+consumes: {
+  power: 0.25
+}
+category: units
+
+
+requirements: [
+  efdlc-scrap/45
+  efdlc-copper/15
+]
+
+
+reload: 180
+chargeTime: 60
+range: 120
+maxPayloadSize: 1
+size: 2
