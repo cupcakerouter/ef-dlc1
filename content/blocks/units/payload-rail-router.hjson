@@ -1,5 +1,5 @@
 type: PayloadRouter
-description: Splits small payloads into three directions equally.
+description: Splits small payloads into three directions equally. Can be configured to only let certain payloads forwards.
 category: units
 health: 150
 size: 2
