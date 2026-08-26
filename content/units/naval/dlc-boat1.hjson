@@ -16,6 +16,7 @@ weapons: [
 {
 name: dlc-boat1-gun
 shootSound: shootCyclone
+shootSoundVolume: 0.3
 x: 0
 y: -1
 mirror: false
