@@ -15,6 +15,7 @@ requirements: [
 
 reload: 30
 chargeTime: 42
-range: 120
+knockback: 1
+range: 240
 maxPayloadSize: 1
 size: 2
