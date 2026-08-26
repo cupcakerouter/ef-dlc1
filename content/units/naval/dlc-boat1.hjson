@@ -31,55 +31,38 @@ recoil: 2
 shootSound: bolt
 ejectEffect: none
 bullet: {
-    type: BasicBulletType,
-    colours: d5d2d6,
-    damage: 25,
-    speed: 3
-    width: 8
-    height: 10
-    shootEffect: "shootSmall"
-    smokeEffect: "shootSmallSmoke"
-        trailColor: d5d2d6
-        trailLength: 5
-        trailWidth: 2
-      despawnEffect: [
-        {
-          type: WaveEffect
-          sizeFrom: 0
-          sizeTo: 8
-          lifetime: 15
-          strokeFrom: 3
-          strokeTo: 0
-          colorFrom: d5d2d6
-          colorTo: d5d2d6
-        }
-      ]
-      hitEffect: [
-        {
-          type: ParticleEffect
-          particles: 8
-          line: true
-          lifetime: 20
-          length: 15
-          lenFrom: 2
-          lenTo: 0
-          strokeFrom: 2
-          strokeTo: 0
-          colorFrom: d5d2d6
-          colorTo: d5d2d6
-        },
-        {
-          type: WaveEffect
-          sizeFrom: 0
-          sizeTo: 8
-          lifetime: 10
-          strokeFrom: 3
-          strokeTo: 0
-          colorFrom: d5d2d6
-          colorTo: d5d2d6
-        }
-      ]
-}
+      lifeScaleRandMin: 0.9
+      lifeScaleRandMax: 1.1
+      keepVelocity: false
+      type: BasicBulletType
+      #sprite:
+      width: 8
+      height: 12
+      inaccuracy: 5
+      splashDamageRadius: 12
+      splashDamage: 10
+      lifetime: 40
+      damage: 15
+      speed: 0.1
+      accel: 0.25
+      smokeEffect: shootSmallSmoke
+      trailColor: FFA600
+      trailWidth: 1
+      trailLength: 6
+      backColor: E2A000
+      hitColor: E2A000
+      despawnEffect: {
+        type: WaveEffect
+        rotWithParent: true
+        followParent: true
+        lifetime: 8
+        sizeFrom: 0
+        sizeTo: 15
+        colorFrom: ffffff
+        colorTo: FFA600
+      }
+    }
+
 }
 ]
 
