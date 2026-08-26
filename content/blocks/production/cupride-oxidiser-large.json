@@ -10,6 +10,7 @@ craftTime: 120
 squareSprite: false
 itemCapacity: 30
 liquidCapacity: 200
+ignoreLiquidFullness: true
 
 ambientSound: loopHum
 ambientSoundVolume: 0.06
