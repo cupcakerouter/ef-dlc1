@@ -1,7 +1,7 @@
 type: PayloadDeconstructor
-description: Deconstructs small payloads outputting the materials used to build them.
+description: Quickly deconstructs small payloads.
 itemCapacity: 48
-size: 3
+size: 2
 category: units
 
 
@@ -12,7 +12,7 @@ requirements: [
 
 
 squareSprite: false
-deconstructSpeed: 0.5
+deconstructSpeed: 1
 consumes: {
   power: 0.5
 }
