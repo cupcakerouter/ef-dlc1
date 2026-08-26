@@ -1,6 +1,6 @@
 outlineColor: 13151AFF
 name: boat
-description: Small naval unit. Decently well armoured for its size. Wow such cool unit, very creative and new.
+description: Small naval unit. Decently well armoured for its size. Shoots a single small bullet.
 type: naval
 speed: 1.1,
 hitSize: 8,
@@ -15,6 +15,7 @@ targetAir: true
 weapons: [
 {
 name: dlc-boat1-gun
+shootSound: shootCyclone
 x: 0
 y: -1
 mirror: false
@@ -39,12 +40,10 @@ bullet: {
       width: 8
       height: 12
       inaccuracy: 5
-      splashDamageRadius: 12
-      splashDamage: 10
-      lifetime: 40
+      lifetime: 25
       damage: 15
-      speed: 0.1
-      accel: 0.25
+      speed: 0.05
+      accel: 0.3
       smokeEffect: shootSmallSmoke
       trailColor: FFA600
       trailWidth: 1
