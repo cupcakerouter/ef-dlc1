@@ -1,0 +1,43 @@
+type: UnitAssembler
+name: Advanced Hover Unit Constructor
+description: Creates hover units using payloads.
+size: 6
+category: units
+
+## ADD DRONE LATER!!!
+## droneType: 
+
+hasPower: true
+hasLiquids: true
+
+
+requirements: [
+  efdlc-scrap/250
+  efdlc-copper/150
+  efdlc-arsenic/200
+  efdlc-cupride/50
+
+]
+
+
+plans: [
+  {
+    type: AssemblerUnitPlan
+    unit: efdlc-keres
+    requirements: [
+    ef-dlc-dlc-copper-wall/4
+    ef-dlc-efdlc-mabuz/2
+    ]
+    time: 3000
+  }
+]
+
+
+squareSprite: false
+consumes: {
+  liquids: [
+    efdlc-neutralizer/0.3
+  ]
+  power: 4
+}
+areaSize: 12
