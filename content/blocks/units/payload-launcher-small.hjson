@@ -23,11 +23,11 @@ size: 2
     shootEffect: [
     	{
     	type: ParticleEffect
-    	particles: 14
-    	lifetime: 45
+    	particles: 7
+    	lifetime: 60
     	layer: 100.2
     	cone: 30
-    	length: 75
+    	length: 30
     	interp:pow3Out
     	sizeFrom: 1
     	sizeTo: 4
@@ -38,14 +38,14 @@ size: 2
 smokeEffect: [
 	{
     	type: ParticleEffect
-    	particles: 14
+    	particles: 10
     	lifetime: 45
     	layer: 100.2
     	cone: 60
-    	length: 30
+    	length: 15
     	interp:pow3Out
     	sizeFrom: 1
-    	sizeTo: 4
+    	sizeTo: 3
     	colorFrom: D6AF8DCC
     	colorTo: D6AF8D00
       }
