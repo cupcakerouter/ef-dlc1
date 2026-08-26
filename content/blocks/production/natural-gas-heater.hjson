@@ -1,6 +1,6 @@
 type: HeatProducer
 name: Slag Heater
-description: Creates a small amount of heat using natural gas.
+description: Creates a small amount of heat using natural gas. !!!PRETEND IT IS USING 1.5NG/S AND IT IS MAKING 3 HEAT!!!
 size: 3
 
 
