@@ -21,7 +21,10 @@ maxPayloadSize: 1
 size: 2
 
     shootEffect: [
-shootEffect: shootSmall
+shootEffect: {
+type: ParticleEffect
+lifetime: 1
+}
     	{
     	type: ParticleEffect
     	particles: 14
