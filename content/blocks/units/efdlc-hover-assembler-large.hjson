@@ -23,10 +23,10 @@ requirements: [
 plans: [
   {
     type: AssemblerUnitPlan
-    unit: efdlc-keres
+    unit: ef-dlc-keres-dlc
     requirements: [
     ef-dlc-dlc-copper-wall/4
-    ef-dlc-efdlc-mabuz/2
+    ef-dlc-ef-dlc-mabuz-dlc/2
     ]
     time: 3000
   }
