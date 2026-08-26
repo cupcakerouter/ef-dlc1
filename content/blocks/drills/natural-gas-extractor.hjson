@@ -11,8 +11,10 @@ category: production
 hasLiquids: true
 hasPower: true
 
-productionTime: 60
-
+craftTime: 60
+consumes: {
+liquids: efdlc-neutralizer/0.0222222222
+}
 outputLiquid: efdlc-natural-gas/0.1
 
 
