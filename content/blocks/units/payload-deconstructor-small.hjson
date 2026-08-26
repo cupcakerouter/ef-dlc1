@@ -1,0 +1,18 @@
+type: PayloadDeconstructor
+description: Deconstructs small payloads outputting the materials used to build them.
+itemCapacity: 48
+size: 3
+category: units
+
+
+requirements: [
+  efdlc-scrap/75
+  efdlc-copper/25
+]
+
+
+squareSprite: false
+deconstructSpeed: 0.5
+consumes: {
+  power: 0.5
+}
