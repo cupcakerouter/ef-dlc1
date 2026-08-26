@@ -21,21 +21,17 @@ maxPayloadSize: 1
 size: 2
 
     shootEffect: [
-shootEffect: {
-type: ParticleEffect
-lifetime: 1
-}
     	{
     	type: ParticleEffect
     	particles: 14
     	lifetime: 45
     	layer: 100.2
-    	cone: 20
+    	cone: 50
     	length: 40
     	interp:pow3Out
     	sizeFrom: 1
     	sizeTo: 4
-    	colorFrom: D6AF8D90
+    	colorFrom: D6AF8DCC
     	colorTo: D6AF8D00
       }
   	]
