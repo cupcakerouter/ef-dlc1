@@ -10,7 +10,7 @@ requirements: [
   efdlc-copper/25
 ]
 
-
+maxPayloadSize: 1
 squareSprite: false
 deconstructSpeed: 1
 consumes: {
