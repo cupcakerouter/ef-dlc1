@@ -1,0 +1,30 @@
+type: Constructor
+description: Constructs small parts for unit production. Requires a small amount of power and neutralizer to run.
+size: 2
+category: units
+
+
+requirements: [
+  efdlc-scrap/150
+  efdlc-copper/75
+  efdlc-arsenic/25
+] 
+hasPower: true
+
+
+consumes: {
+  power: 1
+  liquids: [
+    efdlc-neutralizer/0.1
+  ]
+}
+buildSpeed: 1
+
+
+filter: [
+  ef-dlc-dlc-scrap-wall-small
+]
+
+squareSprite: false
+conductivePower: true
+maxBlockSize: 1
