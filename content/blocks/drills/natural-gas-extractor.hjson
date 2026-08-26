@@ -14,7 +14,7 @@ hasPower: true
 craftTime: 60
 consumes: {
 liquids: [
-efdlc-neutralizer/0.0185
+efdlc-neutralizer/0.01
 ]
 }
 outputLiquid: efdlc-natural-gas/0.1
