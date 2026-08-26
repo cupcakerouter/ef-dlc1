@@ -26,8 +26,8 @@ size: 2
     	particles: 14
     	lifetime: 45
     	layer: 100.2
-    	cone: 50
-    	length: 40
+    	cone: 30
+    	length: 75
     	interp:pow3Out
     	sizeFrom: 1
     	sizeTo: 4
@@ -35,3 +35,18 @@ size: 2
     	colorTo: D6AF8D00
       }
   	]
+smokeEffect: [
+	{
+    	type: ParticleEffect
+    	particles: 14
+    	lifetime: 45
+    	layer: 100.2
+    	cone: 60
+    	length: 30
+    	interp:pow3Out
+    	sizeFrom: 1
+    	sizeTo: 4
+    	colorFrom: D6AF8DCC
+    	colorTo: D6AF8D00
+      }
+]
