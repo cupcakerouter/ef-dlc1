@@ -25,7 +25,7 @@ requirements: [
 
 consumes: {
 	liquids: [
-        efdlc-natural-gas/0.0025
+        efdlc-natural-gas/0.01
 	]
 }
 
