@@ -1,0 +1,57 @@
+type: AttributeCrafter
+name: Natural Gas Extractor
+description: Productes natural gas from vents.
+size: 3
+attribute: natural-gas
+displayEfficiencyScale: 0.11111111111
+displayEfficiency: false
+minEfficiency: 8
+squareSprite: false
+category: production
+hasLiquids: true
+hasPower: true
+
+
+outputLiquid: efdlc-natural-gas/0.016666666666666666666
+
+
+requirements: [
+    efdlc-scrap/120
+    efdlc-copper/75
+    efdlc-cupride/25
+]
+
+
+ambientSound: loopHum
+ambientSoundVolume: 0.3
+
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawLiquidRegion
+      suffix: -liquid
+      drawLiquid: efdlc-natural-gas
+      alpha: 1
+      padding: 3
+    } 
+    {
+      type: DrawRegion
+      suffix: -rotator
+      spinSprite: true
+      rotateSpeed: -8
+    }
+    {
+      type: DrawDefault
+    }
+  ]
+}
+
+
+
+
+
