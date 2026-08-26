@@ -1,0 +1,60 @@
+type: HeatProducer
+name: Slag Heater
+description: Creates a small amount of heat using natural gas.
+size: 3
+
+
+hasLiquids: true
+hasPower: false
+hasItems: false
+heatOutput: 4
+craftTime: 60
+squareSprite: false
+
+
+ambientSound: loopHum
+ambientSoundVolume: 0.04
+category: crafting
+
+
+requirements: [
+	efdlc-scrap/50
+	efdlc-copper/25
+]
+
+
+consumes: {
+	liquids: [
+        efdlc-natural-gas/0.01
+	]
+}
+
+sideHeat: [1]
+
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+	  type: DrawLiquidRegion
+      suffix: -liquid
+      drawLiquid: efdlc-slag
+      alpha: 1
+      padding: 3
+	}
+    {
+	  type: DrawDefault
+	}
+    {
+	  type: DrawHeatOutput
+	}
+    {
+      type: DrawGlowRegion
+      suffix: -glow
+      glowScale: 10
+	}
+  ]
+} 
