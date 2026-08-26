@@ -38,11 +38,11 @@ size: 2
 smokeEffect: [
 	{
     	type: ParticleEffect
-    	particles: 10
+    	particles: 15
     	lifetime: 45
     	layer: 100.2
-    	cone: 90
-    	length: 10
+    	cone: 75
+    	length: 12
     	interp:pow3Out
     	sizeFrom: 1
     	sizeTo: 3
