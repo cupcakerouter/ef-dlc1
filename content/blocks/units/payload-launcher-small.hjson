@@ -21,7 +21,7 @@ maxPayloadSize: 1
 size: 2
 
     shootEffect: [
-shootEffect: smoke
+shootEffect: shootSmall
     	{
     	type: ParticleEffect
     	particles: 14
