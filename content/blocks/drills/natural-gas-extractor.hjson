@@ -1,6 +1,6 @@
 type: AttributeCrafter
 name: Natural Gas Extractor
-description: Productes natural gas from vents. !!!PRETEND IT IS MAKING 6/NG A SECOND AND IT USES 1/s NEUTRALIZER!!!
+description: Extractors natural gas from shale vents using a small amount of neutralizer.
 size: 3
 attribute: natural-gas
 displayEfficiencyScale: 0.011111111111
