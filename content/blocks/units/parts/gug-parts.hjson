@@ -2,7 +2,7 @@ type: Wall
 name: Gug parts
 description: What is this, some kind of part used to construct gug???
 size: 1
-customShadow: true
+customShadow: false
 placeablePlayer: false
 
 requirements: [
