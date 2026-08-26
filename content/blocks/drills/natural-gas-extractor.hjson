@@ -5,7 +5,7 @@ size: 3
 attribute: natural-gas
 displayEfficiencyScale: 0.11111111111
 displayEfficiency: false
-minEfficiency: 0.77777
+minEfficiency: 1.2
 squareSprite: false
 category: production
 hasLiquids: true
