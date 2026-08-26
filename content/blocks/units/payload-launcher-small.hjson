@@ -20,31 +20,20 @@ range: 240
 maxPayloadSize: 1
 size: 2
 
+shootEffect: none
+## the none clears the default effect 
     shootEffect: [
     	{
     	type: ParticleEffect
     	particles: 14
-    	lifetime: 50
+    	lifetime: 45
     	layer: 100.2
-    	cone: 30
-    	length: 60
-    	interp:pow3Out
-    	sizeFrom: 2
-    	sizeTo: 3
-    	colorFrom: D6AF8D60
-    	colorTo: D6AF8D00
-      }
-    	{
-    	type: ParticleEffect
-    	particles: 13
-    	lifetime: 30
-     	layer: 100.3
     	cone: 20
-    	length: 20
-    	interp:pow5Out
-    	sizeFrom: 2
-    	sizeTo: 3
-    	colorFrom: ffffffAA
-    	colorTo: ffffff00
+    	length: 40
+    	interp:pow3Out
+    	sizeFrom: 1
+    	sizeTo: 4
+    	colorFrom: D6AF8D90
+    	colorTo: D6AF8D00
       }
   	]
