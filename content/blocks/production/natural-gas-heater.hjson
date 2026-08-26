@@ -41,7 +41,7 @@ drawer: {
     {
 	  type: DrawLiquidRegion
       suffix: -liquid
-      drawLiquid: efdlc-slag
+      drawLiquid: efdlc-natural-gas
       alpha: 1
       padding: 3
 	}
