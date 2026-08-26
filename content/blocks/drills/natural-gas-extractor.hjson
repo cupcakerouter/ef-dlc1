@@ -13,7 +13,7 @@ hasPower: true
 
 productionTime: 60
 
-outputLiquid: efdlc-natural-gas/0.016666666666666666666
+outputLiquid: efdlc-natural-gas/0.1
 
 
 requirements: [
