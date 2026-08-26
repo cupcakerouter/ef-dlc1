@@ -1,6 +1,6 @@
 type: HeatProducer
 name: Natural Gas Heater
-description: Creates a small amount of heat using natural gas. !!!PRETEND IT IS USING 1.5NG/S AND IT IS MAKING 3 HEAT!!!
+description: Creates a small amount of heat using natural gas.
 size: 3
 
 
@@ -13,7 +13,7 @@ squareSprite: false
 
 
 ambientSound: loopHum
-ambientSoundVolume: 0.04
+ambientSoundVolume: 0.1
 category: crafting
 
 
