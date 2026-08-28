@@ -38,14 +38,14 @@ shootEffect: [
     	{
     	type: ParticleEffect
     	particles: 8
-    	lifetime: 40
+    	lifetime: 30
     	layer: 100.2
     	cone: 25
-    	length: 40
+    	length: 25
     	interp:pow3Out
     	sizeFrom: 1
-    	sizeTo: 4
-    	colorFrom: E2A000DC
+    	sizeTo: 3
+    	colorFrom: E2A000DD
     	colorTo: E2A00000
       }
   	]
