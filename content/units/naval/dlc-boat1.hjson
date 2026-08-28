@@ -49,6 +49,7 @@ shootEffect: [
       }
       {
 type: shootSmokeSquare
+lifetime: 30
       }
   	]
 
