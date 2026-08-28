@@ -47,6 +47,10 @@ shootEffect: [
     	colorFrom: E2A000DD
     	colorTo: E2A00000
       }
+      {
+type: particleEffect
+sprite: shootSomkeSquare
+      }
   	]
 
       lifeScaleRandMin: 0.9
