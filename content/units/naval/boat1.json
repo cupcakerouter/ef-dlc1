@@ -10,7 +10,7 @@ armor: 2
 aimDst: 10
 range: 160
 drag: 0.1
-accel: -0.1
+accel: 1.035
 hitSize: 10
 rotateSpeed: 3
 trailLength: 16
