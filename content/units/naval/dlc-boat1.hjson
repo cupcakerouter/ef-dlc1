@@ -37,16 +37,16 @@ bullet: {
 shootEffect: [
     	{
     	type: ParticleEffect
-    	particles: 7
-    	lifetime: 60
+    	particles: 8
+    	lifetime: 40
     	layer: 100.2
-    	cone: 30
-    	length: 30
+    	cone: 25
+    	length: 40
     	interp:pow3Out
     	sizeFrom: 1
     	sizeTo: 4
-    	colorFrom: D6AF8DCC
-    	colorTo: D6AF8D00
+    	colorFrom: E2A000DC
+    	colorTo: E2A00000
       }
   	]
 
