@@ -30,6 +30,22 @@ reload: 40
 recoil: 2
 ejectEffect: none
 
+shootEffect: [
+    	{
+    	type: ParticleEffect
+    	particles: 7
+    	lifetime: 60
+    	layer: 100.2
+    	cone: 30
+    	length: 30
+    	interp:pow3Out
+    	sizeFrom: 1
+    	sizeTo: 4
+    	colorFrom: D6AF8DCC
+    	colorTo: D6AF8D00
+      }
+]
+
     shootSound: shootCyclone
     shootSoundVolume: 0.15
 bullet: {
