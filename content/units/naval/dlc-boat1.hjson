@@ -42,11 +42,11 @@ shootEffect: [
     	layer: 100.2
     	cone: 25
     	length: 25
-    	interp:pow3Out
+ ##   	interp:pow3Out
     	sizeFrom: 1
     	sizeTo: 3
     	colorFrom: E2A000DD
-    	colorTo: E2A00000
+    	colorTo: E2A000FF
       }
   	]
 
