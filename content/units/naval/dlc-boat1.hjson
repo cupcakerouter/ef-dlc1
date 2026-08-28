@@ -53,8 +53,8 @@ lifetime: 30
       }
   	]
 
-      lifeScaleRandMin: 0.9
-      lifeScaleRandMax: 1.1
+      lifeScaleRandMin: 0.09
+      lifeScaleRandMax: 1.09
       keepVelocity: false
       type: BasicBulletType
       #sprite:
