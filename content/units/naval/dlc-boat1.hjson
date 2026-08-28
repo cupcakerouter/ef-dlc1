@@ -48,8 +48,7 @@ shootEffect: [
     	colorTo: E2A00000
       }
       {
-type: particleEffect
-region: shootSomkeSquare
+type: shootSmokeSquare
       }
   	]
 
