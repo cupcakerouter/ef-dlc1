@@ -30,8 +30,7 @@ reload: 40
 recoil: 2
 ejectEffect: none
 
-shootEffect: [
-    	{
+shootEffect: {
     	type: ParticleEffect
     	particles: 7
     	lifetime: 60
@@ -44,7 +43,6 @@ shootEffect: [
     	colorFrom: D6AF8DCC
     	colorTo: D6AF8D00
       }
-]
 
     shootSound: shootCyclone
     shootSoundVolume: 0.15
