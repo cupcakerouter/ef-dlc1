@@ -49,7 +49,7 @@ shootEffect: [
       }
       {
 type: particleEffect
-sprite: shootSomkeSquare
+region: shootSomkeSquare
       }
   	]
 
@@ -69,8 +69,8 @@ sprite: shootSomkeSquare
       trailColor: FFA600
       trailWidth: 1
       trailLength: 6
-      backColor: E2A000
-      hitColor: E2A000
+      backColor: FFA600
+      hitColor: FFA600
       despawnEffect: {
         type: WaveEffect
         rotWithParent: true
