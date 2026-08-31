@@ -12,3 +12,4 @@ supportsOverlay: true
 shallow: false
 isDeep: true
 liquidMultiplier: 1
+drownTime: 420
