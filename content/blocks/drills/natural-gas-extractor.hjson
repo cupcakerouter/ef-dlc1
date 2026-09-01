@@ -37,22 +37,12 @@ drawer: {
   type: DrawMulti
   drawers: [
     {
-      type: DrawRegion
-      suffix: -bottom
-    }
-    {
       type: DrawLiquidRegion
       suffix: -liquid
       drawLiquid: efdlc-natural-gas
       alpha: 1
       padding: 3
     } 
-    {
-      type: DrawRegion
-      suffix: -rotator
-      spinSprite: true
-      rotateSpeed: -8
-    }
     {
       type: DrawDefault
     }
