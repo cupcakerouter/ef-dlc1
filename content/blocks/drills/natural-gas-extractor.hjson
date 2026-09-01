@@ -37,12 +37,20 @@ drawer: {
   type: DrawMulti
   drawers: [
     {
+      type: DrawDefault
+      suffix: -bottom
+    },
+    {
       type: DrawLiquidRegion
       suffix: -liquid
       drawLiquid: efdlc-natural-gas
       alpha: 1
       padding: 3
-    } 
+    },
+    {
+      type: DrawDefault
+      suffix: -top
+    }
     {
       type: DrawDefault
     }
