@@ -56,7 +56,7 @@ drawer: {
 	particleLife: 300
 	particleSize: 3
 	fadeMargin: 1
-	rotateScl: 0.1
+	rotateScl: 1.25
 	circleStroke: 0
     }
     {
