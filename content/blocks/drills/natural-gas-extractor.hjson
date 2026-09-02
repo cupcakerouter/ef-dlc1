@@ -48,7 +48,7 @@ drawer: {
       padding: 3
     },
     {
-      type: DrawDefault
+      type: DrawRegion
       suffix: -top
     }
   ]
