@@ -49,6 +49,7 @@ drawer: {
     },
     {
     type: drawParticles
+	color: 44395e
     colorFrom: 44395e
 	colorTo: 44395eFF
 	particleRad: 10
