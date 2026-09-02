@@ -49,9 +49,9 @@ drawer: {
     },
     {
     type: drawParticles
-	color: 44395e
-    colorFrom: 44395e
-	colorTo: 44395eFF
+	color: 9e8ec0
+    colorFrom: 9e8ec0
+	colorTo: 9e8ec0FF
 	particleRad: 10
 	particleLife: 240
 	sizeFrom: 3
