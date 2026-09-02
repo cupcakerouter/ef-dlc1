@@ -48,6 +48,15 @@ drawer: {
       padding: 3
     },
     {
+    type: drawParticles
+    color: 44395eFF
+	particleRad: 13
+	particleLife: 240
+	fadeMargin: 1
+	rotateScl: 0.5
+	circleStroke: 0
+    }
+    {
       type: DrawRegion
       suffix: -top
     }
