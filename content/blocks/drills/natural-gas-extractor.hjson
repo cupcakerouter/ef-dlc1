@@ -76,7 +76,7 @@ craftEffect: {
       particles: 1
       length: 40
       lifetime: 240
-      cone: 20
+      cone: 40
       baseRotation: 32
       useRotation: false 
       sizeFrom: 0
