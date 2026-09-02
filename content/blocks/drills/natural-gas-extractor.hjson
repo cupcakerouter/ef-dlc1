@@ -70,12 +70,12 @@ craftEffect: {
     type: RadialEffect
     layer: 118
     rotationSpacing: 60
-    amount: 6
+    amount: 8
     lengthOffset: 6
     effect: {
       particles: 1
-      length: 90
-      lifetime: 180
+      length: 40
+      lifetime: 240
       cone: 20
       baseRotation: 32
       useRotation: false 
