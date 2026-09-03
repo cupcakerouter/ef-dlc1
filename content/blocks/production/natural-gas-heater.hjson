@@ -47,6 +47,7 @@ drawer: {
 type: DrawCrucibleFlame
 flameRadius: 0
 flameRadiusIn: 0
+circleRad: 0
 	}
     {
 	  type: DrawHeatOutput
