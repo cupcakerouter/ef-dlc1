@@ -6,7 +6,7 @@ flammability: 0
 heatCapacity: 0.5
 viscosity: 0
 temperature: 0.3
-boilPoint: 5
+boilPoint: 500
 gasColor: e4a2deFF
 gas: true
 blockReactive: false
