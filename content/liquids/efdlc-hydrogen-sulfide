@@ -10,7 +10,3 @@ boilPoint: -4
 gasColor: BFB760FF
 gas: true
 blockReactive: false
-
-
-research: efcrude-oil
-shownPlanets: [aetheria]
