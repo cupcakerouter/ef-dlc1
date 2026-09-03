@@ -40,6 +40,8 @@ drawer: {
 	},
 	{
 type: DrawCrucibleFlame
+circleStroke: 0.5
+flameRad: 0.5
 	},
     {
 	  type: DrawRegion
