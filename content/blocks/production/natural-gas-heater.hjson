@@ -54,18 +54,18 @@ drawer: {
 craftEffect: {
     type: RadialEffect
     layer: 118
-    rotationSpacing: 60
+    rotationSpacing: 30
     amount: 8
     lengthOffset: 6
     effect: {
       particles: 1
       length: 40
-      lifetime: 240
-      cone: 40
+      lifetime: 120
+      cone: 20
       baseRotation: 32
       useRotation: false 
       sizeFrom: 0
-      sizeTo: 6
+      sizeTo: 4
       colorFrom: e0e0e066
       colorTo: e0e0e000
       sizeInterp: pow2Out
