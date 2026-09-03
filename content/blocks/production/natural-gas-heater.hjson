@@ -46,6 +46,7 @@ drawer: {
 	{
 type: DrawCrucibleFlame
 flameRad: 0
+particles: 2
 	}
     {
 	  type: DrawHeatOutput
