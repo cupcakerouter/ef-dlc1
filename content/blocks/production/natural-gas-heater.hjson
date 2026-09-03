@@ -36,10 +36,6 @@ drawer: {
   type: DrawMulti
   drawers: [
     {
-      type: DrawRegion
-      suffix: -bottom
-    }
-    {
 	  type: DrawLiquidRegion
       suffix: -liquid
       drawLiquid: efdlc-natural-gas
@@ -52,10 +48,28 @@ drawer: {
     {
 	  type: DrawHeatOutput
 	}
-    {
-      type: DrawGlowRegion
-      suffix: -glow
-      glowScale: 10
-	}
   ]
 } 
+
+craftEffect: {
+    type: RadialEffect
+    layer: 118
+    rotationSpacing: 60
+    amount: 8
+    lengthOffset: 6
+    effect: {
+      particles: 1
+      length: 40
+      lifetime: 240
+      cone: 40
+      baseRotation: 32
+      useRotation: false 
+      sizeFrom: 0
+      sizeTo: 6
+      colorFrom: e0e0e066
+      colorTo: e0e0e000
+      sizeInterp: pow2Out
+      interp: pow2Out
+      layer: 111
+   			 }
+		   }
