@@ -43,6 +43,7 @@ type: DrawCrucibleFlame
 circleStroke: 0.25
 flameRad: 0.25
 particleRad: 0
+circleSpace: 0
 	},
     {
 	  type: DrawRegion
