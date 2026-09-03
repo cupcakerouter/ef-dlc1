@@ -1,0 +1,12 @@
+type: Liquid
+color: bcd880FF
+
+explosiveness: 0.1
+flammability: 0.4
+heatCapacity: 0.6
+viscosity: 0
+temperature: 0.5
+boilPoint: -1
+gasColor: bcd880FF
+gas: true
+blockReactive: false
