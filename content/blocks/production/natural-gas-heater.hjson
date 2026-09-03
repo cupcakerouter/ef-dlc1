@@ -36,14 +36,14 @@ drawer: {
   type: DrawMulti
   drawers: [
     {
-	  type: DrawLiquidRegion
-      suffix: -liquid
-      drawLiquid: efdlc-natural-gas
-      alpha: 1
-      padding: 3
-	}
-    {
 	  type: DrawDefault
+	},
+	{
+type: DrawCrucibleFlame
+	},
+    {
+	  type: DrawRegion
+      suffix: -top
 	}
     {
 	  type: DrawHeatOutput
