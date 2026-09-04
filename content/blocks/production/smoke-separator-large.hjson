@@ -14,7 +14,7 @@ liquidCapacity: 100
 itemCapacity: 25
 
 outputLiquids: [
-    efdlc-neutralizer/0.5
+    efdlc-ozone/0.5
 ]
 
 
