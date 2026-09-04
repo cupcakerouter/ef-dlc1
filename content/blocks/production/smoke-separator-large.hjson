@@ -66,18 +66,7 @@ drawer: {
       alpha: 1
       padding: 3
     }
-    {
-    type: DrawCrucibleFlame
-    flameColor: 80EAFFFF
-	particleRad: 6
-	particleLife: 240
-	fadeMargin: 1
-	rotateScl: 1
-	circleStroke: 0
-    }
-    {
-      type: DrawDefault
-    }
+
     {
 	  type: DrawGlowRegion
 	  suffix: -glow
