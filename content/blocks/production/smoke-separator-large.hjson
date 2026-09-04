@@ -77,7 +77,7 @@ suffix: -top
 	  type: DrawGlowRegion
 	  suffix: -glow
 	  glowScale: 50
-	  color: 261321
+	  color: 2f2a2e
 	}
   ]
 }
