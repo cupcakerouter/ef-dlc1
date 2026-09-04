@@ -51,12 +51,12 @@ drawer: {
       type: DrawRegion
       suffix: -bottom
     }
-    {
-      type: DrawRegion
-      suffix: -rotator
-      spinSprite: true
-      rotateSpeed: 5
-    }
+		{
+			type: DrawRegion
+			suffix: -rotator
+			spinSprite: true
+			rotateSpeed: -1
+		} 
     
     {
       type: DrawRegion
@@ -69,7 +69,10 @@ drawer: {
       alpha: 1
       padding: 3
     }
-
+	{
+type: drawRegion
+suffix: -top
+	}
     {
 	  type: DrawGlowRegion
 	  suffix: -glow
