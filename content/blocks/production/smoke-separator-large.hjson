@@ -88,19 +88,10 @@ suffix: -top
 	},
 	{
 type: DrawFlame
-flameRadius: 0.25
-flameRadiusIn: 1.25
-flameRadiusMag: 0
-flameRadiusScl: 2
-	},
-	{
-type: DrawFlame
-flameRadius: 0.25
-flameRadiusIn: 1.25
-flameRadiusMag: 0
-flameRadiusScl: 2
-flameX: 2
-flameY: 1.75
+# flameRadius: 0.25
+# flameRadiusIn: 1.25
+# flameRadiusMag: 0
+# flameRadiusScl: 2
 	}
   ]
 }
