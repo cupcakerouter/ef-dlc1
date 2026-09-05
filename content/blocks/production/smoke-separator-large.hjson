@@ -88,6 +88,22 @@ circleSpace: 1.25
 flameRadiusMag: 1
 flameRad: 0.25
 particles: 0
+
+X: -4
+Y: 3.75
+	},
+	{
+type: DrawCrucibleFlame
+flameRadiusScl: 15
+circleStroke: 1
+circleSpace: 1.25
+
+flameRadiusMag: 1
+flameRad: 0.25
+particles: 0
+
+X: -0.5
+Y:  0.25
 	}
     {
 		  type: DrawGlowRegion
