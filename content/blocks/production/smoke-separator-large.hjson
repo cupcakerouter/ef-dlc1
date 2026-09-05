@@ -86,21 +86,31 @@ suffix: -top
 	  glowScale: 50
 	  color: 2f2a2e
 	},
-	{
-type: DrawCrucibleFlame
-flameRad: 0
-particles: 15
-particleSize: 2
-X: -4
-Y: 3.75
-	},
-	{
-type: DrawCrucibleFlame
-flameRad: 0
-particles: 15
-particleSize: 2
-X: -0.5
-Y:  0.25
-	}
+{
+type: DrawFlame
+
+flameRadiusScl: 3
+flameRadiusMag: 1
+flameRadiusInMag: 1
+
+flameRadius: 1.5
+flameRadiusIn: 0.5
+
+offsetX: -4
+offsetY: 3.75
+    },
+    {
+type: DrawFlame
+
+flameRadiusScl: 3
+flameRadiusMag: 1
+flameRadiusInMag: 1
+
+flameRadius: 1.5
+flameRadiusIn: 0.5
+
+offsetX: -0.5
+offsetY:  0.25
+    }
   ]
 }
