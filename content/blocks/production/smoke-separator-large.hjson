@@ -83,7 +83,7 @@ drawer: {
 type: DrawCrucibleFlame
 flameRadiusScl: 15
 circleStroke: 1
-circleSpace: 100
+circleSpace: 1.25
 
 flameRadiusMag: 1
 flameRad: 0.25
