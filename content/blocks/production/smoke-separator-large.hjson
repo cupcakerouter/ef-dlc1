@@ -101,12 +101,6 @@ circleStroke: 0
 x: -0.5
 y:  0.25
 	}
-    {
-		  type: DrawGlowRegion
-		  suffix: -glow
-		  glowScale: 50
-			color: 2f2a2e
-		}
 
   ]
 }
