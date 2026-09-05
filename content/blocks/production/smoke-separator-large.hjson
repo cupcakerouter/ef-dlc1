@@ -95,6 +95,22 @@ flameRadiusInMag: 1
 
 flameRadius: 1.5
 flameRadiusIn: 0.5
+
+x: -4
+y: 3.75
+	},
+	{
+type: DrawFlame
+
+flameRadiusScl: 3
+flameRadiusMag: 1
+flameRadiusInMag: 1	
+
+flameRadius: 1.5
+flameRadiusIn: 0.5
+
+x: -0.5
+y:  0.25
 	}
   ]
 }
