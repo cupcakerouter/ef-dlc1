@@ -89,7 +89,7 @@ suffix: -top
 	{
 type: DrawFlame
 
-flameRadiusScl: 1.25
+flameRadiusScl: 1000
 
 flameRadiusMag: 1	
 flameRadiusInMag: 15	
