@@ -19,14 +19,14 @@ outputLiquids: [
 
 
 consumes: {
-    power: 0.3
+  power: 0.3
 	liquids: [
-        efdlc-carbon-dioxide/0.2
-        efdlc-neutralizer/0.1
-    ]
-items: [
-efdlc-arsenic/1
-]
+    efdlc-carbon-dioxide/0.2
+    efdlc-neutralizer/0.1
+  ]
+	items: [
+	efdlc-arsenic/1
+	]
 }
 craftTime: 60
 
