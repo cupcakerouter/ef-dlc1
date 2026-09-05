@@ -44,6 +44,7 @@ requirements: [
 drawer: {
   type: DrawMulti
   drawers: [
+## CO2 window
     {
       type: DrawRegion
       suffix: -bottom
@@ -61,6 +62,7 @@ drawer: {
 			spinSprite: true
 			rotateSpeed: -1.5
 		}    
+## O3 window
     {
       type: DrawRegion
       suffix: -bottom2
@@ -72,34 +74,22 @@ drawer: {
       alpha: 1
       padding: 3
     }
+
+
 		{
 			type: DrawDefault
 		}
+	{
+type: DrawCrucibleFlame
+flameRad: 3
+particles: 0
+	}
     {
 		  type: DrawGlowRegion
 		  suffix: -glow
 		  glowScale: 50
 			color: 2f2a2e
 		}
-		{
-			type: DrawFlame
-			flameRadiusScl: 10
-			flameRadiusMag: 1
-			flameRadiusInMag: 1
-			flameRadius: 1.5
-			flameRadiusIn: 1
-			flameX: -4
-			flameY: 3.75
-    }
-    {
-			type: DrawFlame
-			flameRadiusScl: 15
-			flameRadiusMag: 1
-			flameRadiusInMag: 1
-			flameRadius: 1.5
-			flameRadiusIn: 1
-			flameX: -0.5
-			flameY: 0.25
-    }
+
   ]
 }
