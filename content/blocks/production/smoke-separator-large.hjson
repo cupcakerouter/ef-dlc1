@@ -92,7 +92,10 @@ type: DrawFlame
 # flameRadiusIn: 1.25
 # flameRadiusMag: 0
 # flameRadiusScl: 2
-flameRadiusScl: 100
+flameRadiusScl: 10
+
+flameRadius: 1.5
+flameRadiusIn: 0.5
 	}
   ]
 }
