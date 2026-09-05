@@ -82,7 +82,8 @@ drawer: {
 	{
 type: DrawCrucibleFlame
 flameRad: 0
-particles: 15
+circleRad: 0
+particles: 8
 particleSize: 2
 
 x: -4
@@ -91,7 +92,8 @@ y: 3.75
 	{
 type: DrawCrucibleFlame
 flameRad: 0
-particles: 15
+circleRad: 0
+particles: 8
 particleSize: 2
 
 x: -0.5
