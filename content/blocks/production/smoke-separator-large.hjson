@@ -102,8 +102,8 @@ flameRadiusMag: 1
 flameRad: 0.25
 particles: 0
 
-X: -0.5
-Y:  0.25
+offsetX: -0.5
+offsetY:  0.25
 	}
     {
 		  type: DrawGlowRegion
