@@ -44,13 +44,17 @@ requirements: [
 drawer: {
   type: DrawMulti
   drawers: [
-	  {
-			type: DrawDefault
-	  }
     {
       type: DrawRegion
       suffix: -bottom
     }
+    {
+      type: DrawLiquidRegion
+		  suffix: -liquid2
+      drawLiquid: efdlc-carbon-dioxide
+      alpha: 1
+      padding: 3
+    } 
 		{
 			type: DrawRegion
 			suffix: -rotator
@@ -68,16 +72,8 @@ drawer: {
       alpha: 1
       padding: 3
     }
-    {
-      type: DrawLiquidRegion
-		  suffix: -liquid2
-      drawLiquid: efdlc-carbon-dioxide
-      alpha: 1
-      padding: 3
-    }
 		{
-			type: drawRegion
-			suffix: -top
+			type: DrawDefault
 		}
     {
 		  type: DrawGlowRegion
@@ -87,20 +83,20 @@ drawer: {
 		}
 		{
 			type: DrawFlame
-			flameRadiusScl: 3
-			flameRadiusMag: 5
+			flameRadiusScl: 10
+			flameRadiusMag: 1
 			flameRadiusInMag: 1
-			flameRadius: 2
+			flameRadius: 1.5
 			flameRadiusIn: 1
 			flameX: -4
 			flameY: 3.75
     }
     {
 			type: DrawFlame
-			flameRadiusScl: 3
-			flameRadiusMag: 5
+			flameRadiusScl: 15
+			flameRadiusMag: 1
 			flameRadiusInMag: 1
-			flameRadius: 2
+			flameRadius: 1.5
 			flameRadiusIn: 1
 			flameX: -0.5
 			flameY: 0.25
