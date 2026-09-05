@@ -96,7 +96,7 @@ flameRadiusScl: 10
 
 flameRadius: 1.5
 flameRadiusIn: 0.5
-flameRadiusMag: 4
+flameRadiusMag: 0.25
 	}
   ]
 }
