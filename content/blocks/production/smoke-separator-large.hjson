@@ -89,8 +89,8 @@ flameRadiusMag: 1
 flameRad: 0.25
 particles: 0
 
-X: -4
-Y: 3.75
+x: -4
+y: 3.75
 	},
 	{
 type: DrawCrucibleFlame
