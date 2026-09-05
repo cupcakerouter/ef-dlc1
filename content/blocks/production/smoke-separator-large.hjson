@@ -85,6 +85,7 @@ flameRad: 0
 circleRad: 0
 particles: 8
 particleSize: 2
+circleStroke: 0
 
 x: -4
 y: 3.75
@@ -95,6 +96,7 @@ flameRad: 0
 circleRad: 0
 particles: 8
 particleSize: 2
+circleStroke: 0
 
 x: -0.5
 y:  0.25
