@@ -44,9 +44,9 @@ requirements: [
 drawer: {
   type: DrawMulti
   drawers: [
-	{
-	type: DrawDefault
-	}
+	  {
+			type: DrawDefault
+	  }
     {
       type: DrawRegion
       suffix: -bottom
@@ -56,61 +56,54 @@ drawer: {
 			suffix: -rotator
 			spinSprite: true
 			rotateSpeed: -1.5
-		} 
-    
+		}    
     {
       type: DrawRegion
       suffix: -bottom2
     }
     {
       type: DrawLiquidRegion
-	  suffix: -liquid
+		  suffix: -liquid
       drawLiquid: efdlc-ozone
       alpha: 1
       padding: 3
-    },
+    }
     {
       type: DrawLiquidRegion
-	  suffix: -liquid2
+		  suffix: -liquid2
       drawLiquid: efdlc-carbon-dioxide
       alpha: 1
       padding: 3
     }
-	{
-type: drawRegion
-suffix: -top
-	}
+		{
+			type: drawRegion
+			suffix: -top
+		}
     {
-	  type: DrawGlowRegion
-	  suffix: -glow
-	  glowScale: 50
-	  color: 2f2a2e
-	},
-{
-type: DrawFlame
-
-flameRadiusScl: 3
-flameRadiusMag: 1
-flameRadiusInMag: 1
-
-flameRadius: 1.5
-flameRadiusIn: 0.5
-
-offsetX: -4
-offsetY: 3.75
-    },
+		  type: DrawGlowRegion
+		  suffix: -glow
+		  glowScale: 50
+			color: 2f2a2e
+		}
+		{
+			type: DrawFlame
+			flameRadiusScl: 3
+			flameRadiusMag: 1
+			flameRadiusInMag: 1
+			flameRadius: 1.5
+			flameRadiusIn: 0.5
+			flameX: -4.125
+			flameY: 3.875
+    }
     {
-type: DrawFlame
-
-flameRadiusScl: 3
-flameRadiusMag: 1
-flameRadiusInMag: 1
-
-flameRadius: 1.5
-flameRadiusIn: 0.5
-
-offsetX: -0.5
-offsetY:  0.25
+			type: DrawFlame
+			flameRadiusScl: 3
+			flameRadiusMag: 1
+			flameRadiusInMag: 1
+			flameRadius: 1.5
+			flameRadiusIn: 0.5
+			flameX: -0.625
+			flameY: 0.375
     }
   ]
 }
