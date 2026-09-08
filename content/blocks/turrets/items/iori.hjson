@@ -38,14 +38,15 @@ ammoPerShot: 1
 ammoTypes: {
   efdlc-cupride: {
       type: BasicBulletType
-      width: 4
+      width: 2
+      height: 2
       damage: 150
-      lifetime: 8
-      speed: 8
+      lifetime: 30
+      speed: 5
       recoil: 5
       smokeEffect: shootSmokeSquare
       trailColor: BEE1ADFF
-      trailWidth: 5
+      trailWidth: 1
       trailLength: 10
       trailParam: 1.8
       trailInterval: 2
@@ -75,7 +76,7 @@ pierceCap: 2
       hitSound: none
       despawnSound: none
       homingPower: 0.05
-      weaveMag: 8
+      weaveMag: 2
       weaveScale: 4
       hitEffect: {
         type: ExplosionEffect
