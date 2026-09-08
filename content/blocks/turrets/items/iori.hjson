@@ -107,9 +107,9 @@ drawer: {
 	  mirror: true
 	  progress: recoil
 	  heatProgress: recoil
-	  moveY: -2
-    moveX: 2
-    rot: 25
+	  moveY: -0
+      moveX: 0
+      moveRot: 25
     }
   ]
 }
