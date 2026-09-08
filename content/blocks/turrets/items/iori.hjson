@@ -24,12 +24,12 @@ consumes: {
 } 
 liquidCapacity: 100
 
-recoil: 3
+recoil: 2
 outlineColor: 181425FF
 targetAir: true
 targetGround: true
 rotateSpeed: 2
-reload: 30
+reload: 15
 range: 128
 shootY: 12
 
