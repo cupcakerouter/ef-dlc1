@@ -104,6 +104,7 @@ drawer: {
     {
       type: RegionPart
       suffix: -side
+	  mirror: true
 	  progress: recoil
 	  heatProgress: recoil
 	  moveY: -2
