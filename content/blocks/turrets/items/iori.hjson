@@ -4,7 +4,7 @@ type: ItemTurret
 size: 3
 squareSprite: false
 health: 700
-shootSound: shootArtillerySapBig
+shootSound: shootDagger
 hasItems: true
 hasPower: true
 hasLiquids: true
@@ -19,22 +19,22 @@ efdlc-cupride/15
 
 category: turret
 consumes: {
-  power: 0.5
-  liquid: efdlc-hydrogen/0.2
+  power: 3
+  liquid: efdlc-hydrogen/0.5
 } 
-liquidCapacity: 50
+liquidCapacity: 100
 
 recoil: 3
 outlineColor: 181425FF
 targetAir: true
 targetGround: true
 rotateSpeed: 2
-reload: 120
+reload: 30
 range: 128
-shootY: 4
+shootY: 12
 
 
-ammoPerShot: 3
+ammoPerShot: 1
 ammoTypes: {
   efdlc-cupride: {
       type: BasicBulletType
@@ -75,37 +75,8 @@ pierceCap: 2
       hitSound: none
       despawnSound: none
       homingPower: 0.05
-      weaveMag: 1
-      weaveScale: 8
-      fragOnHit: true
-      fragBullets: 5
-      fragRandomSpread: 0
-      fragVelocityMin: 0.2
-      fragVelocityMax: 0.5
-      fragSpread: 10
-      fragAngle: 0
-      fragOnAbsorb: true
-      fragHomingDelay: 0
-      fragHomingPower: 0.1
-      fragBullet: {
-        type: BasicBulletType
-        speed: 8
-        lifetime: 20
-        width: 6
-        height: 6
-        pierce: true
-        pierceBuilding: true
-        pierceCap: 2
-        damage: 42
-        despawnSound: dullExplosion
-        trailColor: BEE1ADFF
-        trailWidth: 3
-        trailLength: 8
-        trailParam: 1.8
-        trailInterval: 2
-        trailEffect: missileTrail
-        backColor: BEE1ADFF
-      }
+      weaveMag: 8
+      weaveScale: 4
       hitEffect: {
         type: ExplosionEffect
         lifetime: 30
