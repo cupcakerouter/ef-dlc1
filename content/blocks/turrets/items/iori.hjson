@@ -100,4 +100,15 @@ pierceCap: 2
 drawer: {
   type: DrawTurret
   basePrefix: blehhhhious-
+  parts: [
+    {
+      type: RegionPart
+      suffix: -side
+	  progress: recoil
+	  heatProgress: recoil
+	  moveY: -2
+    moveX: 2
+    rot: 25
+    }
+  ]
 }
