@@ -43,7 +43,7 @@ ammoTypes: {
       damage: 150
       lifetime: 30
       speed: 5
-      recoil: 5
+      recoil: 1
       smokeEffect: shootSmokeSquare
       trailColor: BEE1ADFF
       trailWidth: 1
