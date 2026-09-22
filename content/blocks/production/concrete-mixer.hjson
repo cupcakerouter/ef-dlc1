@@ -53,7 +53,7 @@ drawer: {
       type: DrawLiquidRegion
 		  suffix: -liquid
       drawLiquid: efdlc-pure-water
-      alpha: 0.3
+      alpha: 0.45
       padding: 3
     }
     {
