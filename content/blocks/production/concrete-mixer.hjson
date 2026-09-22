@@ -50,6 +50,13 @@ drawer: {
       suffix: -bottom
     }
     {
+      type: DrawLiquidRegion
+		  suffix: -bottom
+      drawLiquid: efdlc-pure-water
+      alpha: 0.1
+      padding: 3
+    }
+    {
     type: drawParticles
     color: 8d8d8dFF
 	particleRad: 14
