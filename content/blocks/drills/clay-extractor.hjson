@@ -67,6 +67,7 @@ craftEffect: [
     amount: 1
     lengthOffset: 7.6321
     layer: 110
+    X: -4
     effect: {
       type: ParticleEffect
       particles: 1
