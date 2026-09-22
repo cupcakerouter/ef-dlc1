@@ -1,0 +1,10 @@
+type: item
+name: Clay
+description: Very soft clump of clay. Useful for all sorts of production, such as filtering.
+flammability: 0
+explosiveness: 0
+radioactivity: 0
+charge: 0
+color: e0d4c0FF
+
+hiddenOnPlanets: [serpulo, erekir]
