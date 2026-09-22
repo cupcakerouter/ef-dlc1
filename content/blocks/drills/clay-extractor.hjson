@@ -21,7 +21,7 @@ liquids: [
 }
 
 outputItem: efdlc-clay/1
-productionTime: 60
+craftTime: 60
 category: production
 ambientSound: hum
 ambientSoundVolume: 0.06
