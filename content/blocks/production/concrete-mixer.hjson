@@ -1,0 +1,62 @@
+type: GenericCrafter
+name: Concrete Mixer
+description: Hell yea we be cookin up buildings with this one 
+category: crafting
+size: 4
+
+hasLiquids: true
+hasItems: true
+squareSprite: false
+hasPower: true
+
+
+liquidCapacity: 75
+itemCapacity: 50
+
+outputItems: [
+    efdlc-concrete/6
+]
+
+
+consumes: {
+  power: 1
+	liquids: [
+    efdlc-pure-water/0.30
+    efdlc-neutralizer/0.2
+  ]
+	items: [
+  efdlc-scrap/3
+  copper/6
+	]
+}
+craftTime: 180
+
+
+ambientSound: loopSteam
+ambientSoundVolume: 0.1
+
+
+requirements: [
+  efdlc-scrap/1
+]
+
+
+drawer: {
+  type: DrawMulti
+  drawers: [
+
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+		{
+			type: DrawRegion
+			suffix: -rotator
+			spinSprite: true
+			rotateSpeed: 3
+		}    
+		{
+			type: DrawDefault
+		}
+  ]
+}
