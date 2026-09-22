@@ -1,0 +1,53 @@
+type: AttributeCrafter
+attribute: clay
+baseEfficiency: 0
+minEfficiency: 0.25
+maxBoost: 1
+
+displayEfficiency: true
+hasItems: true
+hasLiquids: true
+hasPower: true
+ignoreLiquidFullness: false
+size: 2
+liquidCapacity: 20
+squareSprite: false
+
+consumes: {
+    power: 0.1
+liquids: [
+      efdlc-neutralizer/0.05
+]
+}
+
+outputItem: efdlc-clay/1
+
+category: production
+ambientSound: hum
+ambientSoundVolume: 0.06
+
+requirements: [
+efdlc-scrap/25
+efdlc-copper/30
+]
+
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+	{
+	  type: DrawDefault
+    }
+    {  
+      type: DrawLiquidRegion
+      drawLiquid: efdlc-neutralizer
+      suffix: -liquid
+      padding: 3
+      alpha: 0.35
+    }
+
+  ]
+}
