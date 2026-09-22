@@ -21,7 +21,7 @@ outputItems: [
 consumes: {
   power: 1
 	liquids: [
-    efdlc-pure-water/0.30
+    efdlc-pure-water/0.6
     efdlc-neutralizer/0.2
   ]
 	items: [
