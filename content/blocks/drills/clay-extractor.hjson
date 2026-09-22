@@ -54,5 +54,21 @@ drawer: {
 	{
 	  type: DrawDefault
     }
+
+    {
+    type: drawParticles
+    color: 80EAFFFF
+	particleRad: 13
+	particleLife: 300
+	fadeMargin: 1
+	rotateScl: 0.5
+	circleStroke: 0
+particleSize: 4
+particleSizeTo: 1
+	  X: -3.75
+	  Y: 4
+	  rot: 270
+    }
+
   ]
 }
