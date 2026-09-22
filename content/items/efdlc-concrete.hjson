@@ -1,0 +1,11 @@
+type: item
+name: Copper
+description: A durable material used in the construction of many structures. 
+flammability: 0
+explosiveness: 0
+radioactivity: 0
+charge: 00
+hardness: 4
+color: bfc0af
+
+hiddenOnPlanets: [serpulo, erekir]
