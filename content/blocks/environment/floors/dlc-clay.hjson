@@ -1,2 +1,5 @@
 type: Floor
 variants: 3
+attributes: {
+  clay: 0.25
+}
