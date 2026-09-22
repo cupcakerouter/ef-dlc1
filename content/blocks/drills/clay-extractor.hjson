@@ -56,7 +56,7 @@ drawer: {
     }
 
     {
-    type: drawParticles
+    type: RadialEffect
     color: ffffff
 	particleRad: 13
 	particleLife: 300
