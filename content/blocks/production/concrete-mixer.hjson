@@ -26,7 +26,7 @@ consumes: {
   ]
 	items: [
   efdlc-scrap/3
-  copper/6
+  efdlc-clay/6
 	]
 }
 craftTime: 180
