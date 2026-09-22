@@ -68,7 +68,5 @@ particleSizeTo: 1
 	  Y: 4
 	  rot: 270
     }
-
-}
   ]
 }
