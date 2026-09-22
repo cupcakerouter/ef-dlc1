@@ -6,6 +6,6 @@ explosiveness: 0
 radioactivity: 0
 charge: 00
 hardness: 4
-color: bfc0af
+color: c0c0c0
 
 hiddenOnPlanets: [serpulo, erekir]
