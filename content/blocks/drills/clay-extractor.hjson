@@ -62,9 +62,9 @@ drawer: {
 craftEffect: [
   {
     type: RadialEffect
-    rotationOffset: 90
+    rotationOffset: 270
     rotationSpacing: -63.2
-    amount: 2
+    amount: 1
     lengthOffset: 7.6321
     layer: 110
     effect: {
@@ -72,7 +72,7 @@ craftEffect: [
       particles: 1
       lifetime: 300
       sizeFrom: 1
-      baseRotation: 0
+      baseRotation: 270
       sizeTo: 3
       colorFrom: FFFF9980
       colorTo: FFFF9900
