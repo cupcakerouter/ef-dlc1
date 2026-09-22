@@ -55,21 +55,33 @@ drawer: {
 	  type: DrawDefault
     }
 
-    {
+
+  ]
+}
+
+craftEffect: {
     type: RadialEffect
-    color: ffffff
-	particleRad: 13
-	particleLife: 300
-	fadeMargin: 1
-	rotateScl: 13
-	circleStroke: 0
-particleSize: 1
-particleSizeTo: 14
+    layer: 118
+    rotationSpacing: 60
+    amount: 6
+    lengthOffset: 6
+    effect: {
+      particles: 1
+      length: 90
+      lifetime: 240
+      cone: 20
+      baseRotation: 32
+      useRotation: false 
+      sizeFrom: 0
+      sizeTo: 8
+      colorFrom: e0e0e066
+      colorTo: e0e0e000
+      sizeInterp: pow2Out
+      interp: pow2Out
+      layer: 111
 	  x: -3.75
 	  y: 4
 	  rot: 270
 	  cone: 55
-    }
-
-  ]
-}
+   			 }
+		   }
