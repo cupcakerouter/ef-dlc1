@@ -21,7 +21,7 @@ liquids: [
 }
 
 outputItem: efdlc-clay/1
-
+productionTime: 60
 category: production
 ambientSound: hum
 ambientSoundVolume: 0.06
@@ -48,6 +48,11 @@ drawer: {
       padding: 3
       alpha: 0.35
     }
-
+    {
+      type: DrawRegion
+      suffix: -rotator
+      spinSprite: true
+      rotateSpeed: 2
+    }
   ]
 }
