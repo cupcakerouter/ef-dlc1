@@ -61,12 +61,12 @@ drawer: {
 	particleRad: 13
 	particleLife: 300
 	fadeMargin: 1
-	rotateScl: 0.1
+	rotateScl: 13
 	circleStroke: 0
 particleSize: 1
 particleSizeTo: 14
-	  X: -3.75
-	  Y: 4
+	  x: -3.75
+	  y: 4
 	  rot: 270
 	  cone: 55
     }
