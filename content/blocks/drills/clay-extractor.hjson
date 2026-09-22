@@ -67,21 +67,19 @@ craftEffect: {
     lengthOffset: 6
     effect: {
       particles: 1
-      length: 90
-      lifetime: 240
-      cone: 20
-      baseRotation: 32
+      length: 8
+      lifetime: 40
+      baseRotation: 0
       useRotation: false 
       sizeFrom: 0
-      sizeTo: 8
+      sizeTo: 4
       colorFrom: e0e0e066
       colorTo: e0e0e000
       sizeInterp: pow2Out
       interp: pow2Out
       layer: 111
-	  x: -3.75
-	  y: 4
-	  rot: 270
-	  cone: 55
+	  X: -3.75
+	  Y: 4
+	  cone: 10
    			 }
 		   }
