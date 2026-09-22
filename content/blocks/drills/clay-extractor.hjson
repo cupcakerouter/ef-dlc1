@@ -54,5 +54,25 @@ drawer: {
 	{
 	  type: DrawDefault
     }
+{
+    type: drawParticles
+    effect: {
+      particles: 1
+      length: 90
+      lifetime: 240
+      cone: 20
+      baseRotation: 270
+      useRotation: false 
+      sizeFrom: 0
+      sizeTo: 8
+      colorFrom: e0e0e066
+      colorTo: e0e0e000
+      sizeInterp: pow2Out
+      interp: pow2Out
+      layer: 111
+	  X: -3.75
+	  Y: 4
+   			 }
+}
   ]
 }
