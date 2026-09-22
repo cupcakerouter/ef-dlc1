@@ -49,6 +49,15 @@ drawer: {
       type: DrawRegion
       suffix: -bottom
     }
+    {
+    type: drawParticles
+    color: 80EAFFFF
+	particleRad: 20
+	particleLife: 120
+	fadeMargin: 1
+	rotateScl: 3
+	circleStroke: 0
+    }
 		{
 			type: DrawRegion
 			suffix: -rotator
