@@ -38,9 +38,6 @@ drawer: {
       type: DrawRegion
       suffix: -bottom
     }
-	{
-	  type: DrawDefault
-    }
     {  
       type: DrawLiquidRegion
       drawLiquid: efdlc-neutralizer
@@ -53,6 +50,9 @@ drawer: {
       suffix: -rotator
       spinSprite: true
       rotateSpeed: 2
+    }
+	{
+	  type: DrawDefault
     }
   ]
 }
