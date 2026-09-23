@@ -59,30 +59,20 @@ drawer: {
   ]
 }
 
-craftEffect: [
-  {
-    type: RadialEffect
-    rotationOffset: 90
-    rotationSpacing: 0
-    amount: 1
-    lengthOffset: 7.6321
-    layer: 110
-    x: -4
-    effect: {
-      type: ParticleEffect
-      particles: 1
-      lifetime: 240
-      sizeFrom: 1
-      baseRotation: 90
-      sizeTo: 3
-      colorFrom: FFFF9980
-      colorTo: FFFF9900
-      length: 16
-      baseLength: 0
-      cone: 40
-      interp: swing 
-	  sizeInterp: pow3In
-	  useRotation: false
-    } 
-  }
-]
+craftEffect: {
+  type: ParticleEffect
+  particles: 1
+  offsetX: 4
+  lifetime: 240
+  sizeFrom: 1
+  baseRotation: 90
+  sizeTo: 3
+  colorFrom: FFFF9980
+  colorTo: FFFF9900
+  length: 16
+  baseLength: 0
+  cone: 40
+  interp: swing 
+  sizeInterp: pow3In
+  useRotation: false
+}
