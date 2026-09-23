@@ -62,11 +62,11 @@ drawer: {
 craftEffect: {
   type: RadialEffect
   rotationOffset: 135
-  amount: 10
+  amount: 1
   lengthOffset: 4
   effect: {
     type: ParticleEffect
-    particles: 1
+    particles: 10
     lifetime: 240
     sizeFrom: 1
     baseRotation: 90
