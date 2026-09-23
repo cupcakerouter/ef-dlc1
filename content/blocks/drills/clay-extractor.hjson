@@ -65,7 +65,7 @@ craftEffect: {
   offsetX: -4
   lifetime: 240
   sizeFrom: 1
-  baseRotation: 90
+  baseRotation: 0
   sizeTo: 3
   colorFrom: FFFF9980
   colorTo: FFFF9900
