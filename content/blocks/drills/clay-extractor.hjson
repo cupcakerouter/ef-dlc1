@@ -63,9 +63,10 @@ craftEffect: {
   type: ParticleEffect
   particles: 1
   offsetX: -4
+  offsetY: 4
   lifetime: 240
   sizeFrom: 1
-  baseRotation: 0
+  baseRotation: 90
   sizeTo: 3
   colorFrom: FFFF9980
   colorTo: FFFF9900
