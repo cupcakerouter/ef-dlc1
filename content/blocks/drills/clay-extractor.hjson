@@ -63,7 +63,7 @@ craftEffect: {
   type: ParticleEffect
   particles: 1
   offsetX: -4
-  offsetY: 4
+  offsetY: -4
   lifetime: 240
   sizeFrom: 1
   baseRotation: 90
