@@ -62,7 +62,7 @@ drawer: {
 craftEffect: {
   type: ParticleEffect
   particles: 1
-  offsetX: 4
+  offsetX: -4
   lifetime: 240
   sizeFrom: 1
   baseRotation: 90
