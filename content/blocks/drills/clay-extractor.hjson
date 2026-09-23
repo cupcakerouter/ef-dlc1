@@ -67,7 +67,7 @@ craftEffect: {
   effect: {
     type: ParticleEffect
     particles: 10
-    lifetime: 240
+    lifetime: 60
     sizeFrom: 1
     baseRotation: 90
     sizeTo: 3
