@@ -62,7 +62,7 @@ drawer: {
 craftEffect: {
   type: RadialEffect
   rotationOffset: 135
-  amount: 1
+  amount: 10
   lengthOffset: 4
   effect: {
     type: ParticleEffect
@@ -71,8 +71,8 @@ craftEffect: {
     sizeFrom: 1
     baseRotation: 90
     sizeTo: 3
-    colorFrom: FFFF9980
-    colorTo: FFFF9900
+    colorFrom: d0c3af80
+    colorTo: d0c3af00
     length: 16
     baseLength: 0
     cone: 40
