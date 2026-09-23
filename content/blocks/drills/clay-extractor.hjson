@@ -77,7 +77,7 @@ craftEffect: {
     baseLength: 0
     cone: 40
     interp: swing 
-    sizeInterp: pow3In
+ #   sizeInterp: pow3In
     useRotation: false
   }
 }
