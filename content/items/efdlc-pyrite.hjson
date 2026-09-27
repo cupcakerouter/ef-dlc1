@@ -1,7 +1,7 @@
 name: Pyrite
 description: Pyrit 
 type: item
-color: #ebe7a000
+color: ebe7a000
 flammability: 0
 explosiveness: 0
 radioactivity: 0
