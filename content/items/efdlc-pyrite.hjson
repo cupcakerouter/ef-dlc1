@@ -1,0 +1,10 @@
+name: Pyrite
+description: Pyrit 
+type: item
+flammability: 0
+explosiveness: 0
+radioactivity: 0
+charge: 0.5
+hardness: 5
+cost: 4
+hiddenOnPlanets: [serpulo, erekir, aetheria]
