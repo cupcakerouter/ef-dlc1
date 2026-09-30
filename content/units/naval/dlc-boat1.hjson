@@ -45,7 +45,7 @@ shootEffect: [
     	sizeFrom: 0.5
     	sizeTo: 3
     	colorFrom: E2A00055
-    	colorTo: E2A000
+    	colorTo: E2A00000
       },
     	{
     	type: ParticleEffect
@@ -57,7 +57,7 @@ shootEffect: [
     	sizeFrom: 0.25
     	sizeTo: 3
     	colorFrom: E2A00055
-    	colorTo: E2A000
+    	colorTo: E2A00000
       }
       {
 type: shootSmokeSquare
