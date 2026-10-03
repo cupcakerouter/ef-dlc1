@@ -59,10 +59,6 @@ shootEffect: [
     	colorFrom: E2A00055
     	colorTo: E2A00000
       }
-      {
-type: shootSmokeSquare
-lifetime: 30
-      }
   	]
 
       lifeScaleRandMin: 1.05
