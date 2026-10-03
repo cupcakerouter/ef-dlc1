@@ -44,7 +44,7 @@ shootEffect: [
     	length: 25
     	sizeFrom: 0.5
     	sizeTo: 3
-    	colorFrom: E2A00055
+    	colorFrom: E2A000FF
     	colorTo: E2A00000
       },
     	{
@@ -56,7 +56,7 @@ shootEffect: [
     	length: 20
     	sizeFrom: 0.25
     	sizeTo: 3
-    	colorFrom: E2A00055
+    	colorFrom: E2A000FF
     	colorTo: E2A00000
       }
   	]
